@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-01 11:11:23 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="evehicle" length="2.50" minGap="2.50" maxSpeed="100.00" vClass="evehicle" emissionClass="Zero/default" accel="1.0" decel="1.0" sigma="0.0">
+        <param key="actualBatteryCapacity" value="50"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="battery.actualCapacity" value="50000000"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="engine.efficiency" value="0.9"/>
+        <param key="engine.power.max" value="1000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="maximumBatteryCapacity" value="2000000000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="stoppingTreshold" value="0.1"/>
+        <param key="vehicleMass" value="1000"/>
+    </vType>
+    <vType id="veh_passenger" maxSpeed="30.00" vClass="passenger" color="red"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_0" depart="0.00" from="221800346" to="-221800346"/>
+    <person id="p_0" type="DEFAULT_VEHTYPE" depart="0.00">
+        <personTrip from="369624496#0" to="369624496#1" lines="ANY"/>
+    </person>
+    <person id="p_1" depart="0.00">
+        <walk edges="591658296#1 727239043"/>
+    </person>
+    <vehicle id="veh9" type="evehicle" depart="5.11" color="blue">
+        <param key="actualBatteryCapacity" value="1000"/>
+        <route edges="-212712119#4 -212712119#3 -212712119#2 212712104#0 212712104#1 212712104#2 212712104#3 212712104#4 212712115#1 212712115#3 212712115#4 212712115#5 212712115#6 212712115#7 212712115#8 -371345122#2 -371345122#1 221791465#0 221791465#1 -221800343#4 -221800343#3 -221800343#2 -221800343#1 -221800343#0 371345122#2 212712115#9 212712115#10 212712115#11 368611134#0 368611134#1 -368620842#17 -368620842#16 669466787#1 669466787#2 669466787#3 369628890#7 369628890#8 369628890#9 -212712101#4 -212712101#3 -212712101#1 -368620842#6 -368620842#5 -368620842#4 -212712083#7 -212712083#5 -212712083#4 -212712083#3 -212712083#1 -212712083#0 -212712119#6 -212712119#5 -212712119#4"/>
+        <stop containerStop="52" until="200.00"/>
+        <stop chargingStation="cs5" duration="30.00"/>
+    </vehicle>
+</routes>

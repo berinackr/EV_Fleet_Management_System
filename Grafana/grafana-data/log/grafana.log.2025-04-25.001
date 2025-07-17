@@ -1,0 +1,230 @@
+logger=cleanup t=2025-04-24T00:06:35.4999069+03:00 level=info msg="Completed cleanup jobs" duration=57.4176ms
+logger=plugins.update.checker t=2025-04-24T00:06:35.6125554+03:00 level=info msg="Update check succeeded" duration=160.4964ms
+logger=cleanup t=2025-04-24T00:16:35.4468198+03:00 level=info msg="Completed cleanup jobs" duration=4.3163ms
+logger=plugins.update.checker t=2025-04-24T00:16:35.6668171+03:00 level=info msg="Update check succeeded" duration=214.8338ms
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-24T00:25:09.6446335+03:00 level=info msg="Patterns update finished" duration=199.3083ms
+logger=cleanup t=2025-04-24T00:26:35.4759845+03:00 level=info msg="Completed cleanup jobs" duration=33.4656ms
+logger=plugins.update.checker t=2025-04-24T00:26:35.6233507+03:00 level=info msg="Update check succeeded" duration=171.2764ms
+logger=infra.usagestats t=2025-04-24T00:28:00.4670704+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T00:36:35.4652329+03:00 level=info msg="Completed cleanup jobs" duration=22.6571ms
+logger=plugins.update.checker t=2025-04-24T00:36:35.612837+03:00 level=info msg="Update check succeeded" duration=161.7556ms
+logger=cleanup t=2025-04-24T00:46:35.4481735+03:00 level=info msg="Completed cleanup jobs" duration=5.3925ms
+logger=plugins.update.checker t=2025-04-24T00:46:35.6086721+03:00 level=info msg="Update check succeeded" duration=156.9214ms
+logger=cleanup t=2025-04-24T00:56:35.5915769+03:00 level=info msg="Completed cleanup jobs" duration=130.3378ms
+logger=plugins.update.checker t=2025-04-24T00:56:35.6409642+03:00 level=info msg="Update check succeeded" duration=179.7251ms
+logger=infra.usagestats t=2025-04-24T00:58:00.4657541+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T01:06:35.497632+03:00 level=info msg="Completed cleanup jobs" duration=51.8528ms
+logger=plugins.update.checker t=2025-04-24T01:06:35.6073458+03:00 level=info msg="Update check succeeded" duration=156.5364ms
+logger=cleanup t=2025-04-24T01:16:35.5081748+03:00 level=info msg="Completed cleanup jobs" duration=63.1586ms
+logger=plugins.update.checker t=2025-04-24T01:16:35.6117032+03:00 level=info msg="Update check succeeded" duration=159.8521ms
+logger=cleanup t=2025-04-24T01:26:35.4570657+03:00 level=info msg="Completed cleanup jobs" duration=14.6208ms
+logger=plugins.update.checker t=2025-04-24T01:26:35.646748+03:00 level=info msg="Update check succeeded" duration=195.8714ms
+logger=infra.usagestats t=2025-04-24T01:28:00.4656387+03:00 level=info msg="Usage stats are ready to report"
+logger=infra.usagestats t=2025-04-24T01:34:55.3520953+03:00 level=info msg="Sent usage stats" duration=352.0066ms
+logger=cleanup t=2025-04-24T01:36:35.4564991+03:00 level=info msg="Completed cleanup jobs" duration=14.2154ms
+logger=plugins.update.checker t=2025-04-24T01:36:35.6054413+03:00 level=info msg="Update check succeeded" duration=153.8572ms
+logger=cleanup t=2025-04-24T01:46:35.5489277+03:00 level=info msg="Completed cleanup jobs" duration=105.5769ms
+logger=plugins.update.checker t=2025-04-24T01:46:35.6083366+03:00 level=info msg="Update check succeeded" duration=156.3505ms
+logger=cleanup t=2025-04-24T01:56:35.4761999+03:00 level=info msg="Completed cleanup jobs" duration=33.8454ms
+logger=plugins.update.checker t=2025-04-24T01:56:35.6224971+03:00 level=info msg="Update check succeeded" duration=170.9965ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T01:56:53.6922421+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=209 duration=209.1821ms size=0 referer= handler=/api/live/ws status_source=server
+logger=cleanup t=2025-04-24T02:11:54.8056324+03:00 level=info msg="Completed cleanup jobs" duration=237.1157ms
+logger=infra.usagestats t=2025-04-24T02:11:54.8192465+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T02:18:21.3968832+03:00 level=info msg="Completed cleanup jobs" duration=19.0019ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T02:18:24.3819726+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=52 duration=52.3487ms size=0 referer= handler=/api/live/ws status_source=server
+logger=infra.usagestats t=2025-04-24T04:26:50.5464871+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T04:26:50.5509328+03:00 level=info msg="Completed cleanup jobs" duration=1.7755ms
+logger=cleanup t=2025-04-24T12:18:25.0038953+03:00 level=info msg="Completed cleanup jobs" duration=1.4912916s
+logger=infra.usagestats t=2025-04-24T12:18:25.1071634+03:00 level=info msg="Usage stats are ready to report"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T12:18:27.4551544+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=35 duration=35.4832ms size=0 referer= handler=/api/live/ws status_source=server
+logger=cleanup t=2025-04-24T12:26:35.4590403+03:00 level=info msg="Completed cleanup jobs" duration=16.1862ms
+logger=plugins.update.checker t=2025-04-24T12:26:35.6241323+03:00 level=info msg="Update check succeeded" duration=172.8676ms
+logger=infra.usagestats t=2025-04-24T12:28:00.4665043+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T12:36:35.5176368+03:00 level=info msg="Completed cleanup jobs" duration=74.0968ms
+logger=plugins.update.checker t=2025-04-24T12:36:35.6227312+03:00 level=info msg="Update check succeeded" duration=165.2915ms
+logger=cleanup t=2025-04-24T12:46:35.5006237+03:00 level=info msg="Completed cleanup jobs" duration=52.4241ms
+logger=plugins.update.checker t=2025-04-24T12:46:35.6085571+03:00 level=info msg="Update check succeeded" duration=157.1924ms
+logger=cleanup t=2025-04-24T12:56:35.5410613+03:00 level=info msg="Completed cleanup jobs" duration=97.7207ms
+logger=plugins.update.checker t=2025-04-24T12:56:35.6008472+03:00 level=info msg="Update check succeeded" duration=149.2336ms
+logger=grafana.update.checker t=2025-04-24T12:56:35.6749787+03:00 level=info msg="Update check succeeded" duration=221.0941ms
+logger=infra.usagestats t=2025-04-24T12:58:00.4648799+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T13:06:35.4784295+03:00 level=info msg="Completed cleanup jobs" duration=35.7549ms
+logger=plugins.update.checker t=2025-04-24T13:06:35.6152584+03:00 level=info msg="Update check succeeded" duration=163.8461ms
+logger=cleanup t=2025-04-24T13:16:35.4786088+03:00 level=info msg="Completed cleanup jobs" duration=35.3049ms
+logger=plugins.update.checker t=2025-04-24T13:16:35.6187212+03:00 level=info msg="Update check succeeded" duration=167.635ms
+logger=cleanup t=2025-04-24T13:26:35.4999315+03:00 level=info msg="Completed cleanup jobs" duration=55.9015ms
+logger=plugins.update.checker t=2025-04-24T13:26:35.6579443+03:00 level=info msg="Update check succeeded" duration=206.0558ms
+logger=infra.usagestats t=2025-04-24T13:28:00.4646627+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T13:36:35.5022173+03:00 level=info msg="Completed cleanup jobs" duration=55.4393ms
+logger=plugins.update.checker t=2025-04-24T13:36:35.6199625+03:00 level=info msg="Update check succeeded" duration=165.9248ms
+logger=cleanup t=2025-04-24T13:46:35.5566025+03:00 level=info msg="Completed cleanup jobs" duration=61.6316ms
+logger=plugins.update.checker t=2025-04-24T13:46:36.0361781+03:00 level=info msg="Update check succeeded" duration=539.7594ms
+logger=cleanup t=2025-04-24T13:56:35.5131551+03:00 level=info msg="Completed cleanup jobs" duration=69.343ms
+logger=plugins.update.checker t=2025-04-24T13:56:35.6058394+03:00 level=info msg="Update check succeeded" duration=151.9475ms
+logger=infra.usagestats t=2025-04-24T13:58:00.464325+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T14:06:35.5065273+03:00 level=info msg="Completed cleanup jobs" duration=64.1506ms
+logger=plugins.update.checker t=2025-04-24T14:06:35.7372116+03:00 level=info msg="Update check succeeded" duration=285.9259ms
+logger=cleanup t=2025-04-24T14:16:35.4685541+03:00 level=info msg="Completed cleanup jobs" duration=25.5725ms
+logger=plugins.update.checker t=2025-04-24T14:16:35.64824+03:00 level=info msg="Update check succeeded" duration=197.194ms
+logger=cleanup t=2025-04-24T14:26:35.4996223+03:00 level=info msg="Completed cleanup jobs" duration=56.8951ms
+logger=plugins.update.checker t=2025-04-24T14:26:35.6771944+03:00 level=info msg="Update check succeeded" duration=226.1704ms
+logger=infra.usagestats t=2025-04-24T14:28:00.4628927+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T14:36:35.4938812+03:00 level=info msg="Completed cleanup jobs" duration=51.5458ms
+logger=plugins.update.checker t=2025-04-24T14:36:35.6175456+03:00 level=info msg="Update check succeeded" duration=165.777ms
+logger=cleanup t=2025-04-24T14:46:35.5039898+03:00 level=info msg="Completed cleanup jobs" duration=58.3042ms
+logger=plugins.update.checker t=2025-04-24T14:46:35.6059521+03:00 level=info msg="Update check succeeded" duration=154.1781ms
+logger=cleanup t=2025-04-24T14:56:35.4970598+03:00 level=info msg="Completed cleanup jobs" duration=54.0738ms
+logger=plugins.update.checker t=2025-04-24T14:56:35.7335986+03:00 level=info msg="Update check succeeded" duration=282.2467ms
+logger=infra.usagestats t=2025-04-24T14:58:00.4643881+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T15:06:35.5158745+03:00 level=info msg="Completed cleanup jobs" duration=72.7757ms
+logger=plugins.update.checker t=2025-04-24T15:06:35.6016072+03:00 level=info msg="Update check succeeded" duration=150.5719ms
+logger=cleanup t=2025-04-24T15:16:35.4671569+03:00 level=info msg="Completed cleanup jobs" duration=24.5268ms
+logger=plugins.update.checker t=2025-04-24T15:16:35.7066271+03:00 level=info msg="Update check succeeded" duration=254.6361ms
+logger=cleanup t=2025-04-24T15:26:35.4704855+03:00 level=info msg="Completed cleanup jobs" duration=26.5822ms
+logger=plugins.update.checker t=2025-04-24T15:26:35.6123504+03:00 level=info msg="Update check succeeded" duration=160.1237ms
+logger=infra.usagestats t=2025-04-24T15:28:00.4624002+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T15:36:35.4465272+03:00 level=info msg="Completed cleanup jobs" duration=3.7493ms
+logger=plugins.update.checker t=2025-04-24T15:36:35.6287599+03:00 level=info msg="Update check succeeded" duration=177.0172ms
+logger=cleanup t=2025-04-24T15:46:35.4535651+03:00 level=info msg="Completed cleanup jobs" duration=7.0158ms
+logger=plugins.update.checker t=2025-04-24T15:46:35.619345+03:00 level=info msg="Update check succeeded" duration=168.3275ms
+logger=cleanup t=2025-04-24T15:56:35.4991341+03:00 level=info msg="Completed cleanup jobs" duration=54.1237ms
+logger=plugins.update.checker t=2025-04-24T15:56:35.6389722+03:00 level=info msg="Update check succeeded" duration=187.3801ms
+logger=infra.usagestats t=2025-04-24T15:58:00.4655154+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T16:06:35.480377+03:00 level=info msg="Completed cleanup jobs" duration=37.629ms
+logger=plugins.update.checker t=2025-04-24T16:06:35.6464882+03:00 level=info msg="Update check succeeded" duration=195.2046ms
+logger=cleanup t=2025-04-24T16:16:35.5285658+03:00 level=info msg="Completed cleanup jobs" duration=84.0984ms
+logger=plugins.update.checker t=2025-04-24T16:16:35.6042772+03:00 level=info msg="Update check succeeded" duration=153.1443ms
+logger=cleanup t=2025-04-24T16:26:35.4826858+03:00 level=info msg="Completed cleanup jobs" duration=33.1502ms
+logger=plugins.update.checker t=2025-04-24T16:26:35.6637711+03:00 level=info msg="Update check succeeded" duration=212.7797ms
+logger=infra.usagestats t=2025-04-24T16:28:00.4663211+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T16:36:35.4788224+03:00 level=info msg="Completed cleanup jobs" duration=35.8485ms
+logger=plugins.update.checker t=2025-04-24T16:36:35.6019101+03:00 level=info msg="Update check succeeded" duration=150.1991ms
+logger=cleanup t=2025-04-24T16:46:35.472142+03:00 level=info msg="Completed cleanup jobs" duration=28.9584ms
+logger=plugins.update.checker t=2025-04-24T16:46:35.6278694+03:00 level=info msg="Update check succeeded" duration=175.8562ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:47:50.9303093+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=7 duration=7.9458ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=2&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:47:50.9620947+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=3 duration=3.7794ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=2&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:47:50.9657011+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=7 duration=7.3858ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=2&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=cleanup t=2025-04-24T16:56:35.4926489+03:00 level=info msg="Completed cleanup jobs" duration=41.9771ms
+logger=plugins.update.checker t=2025-04-24T16:56:35.7074109+03:00 level=info msg="Update check succeeded" duration=255.4553ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:57:46.5480433+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=15 duration=15.8519ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=3&from=now%2Fy&orgId=1&timezone=browser&to=now%2Fy" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:57:46.565856+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=2 duration=2.6652ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=3&from=now%2Fy&orgId=1&timezone=browser&to=now%2Fy" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:57:46.5768815+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=13 duration=13.6907ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=3&from=now%2Fy&orgId=1&timezone=browser&to=now%2Fy" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=infra.usagestats t=2025-04-24T16:58:00.4679565+03:00 level=info msg="Usage stats are ready to report"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:58:59.2673792+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=2 duration=2.3308ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=4&from=now%2Fy&orgId=1&timezone=browser&to=now%2Fy" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:58:59.3145948+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=1 duration=1.505ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=4&from=now%2Fy&orgId=1&timezone=browser&to=now%2Fy" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T16:58:59.3158517+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=4 duration=4.7601ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=4&from=now%2Fy&orgId=1&timezone=browser&to=now%2Fy" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:00:33.8974072+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=4 duration=4.2418ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=5&from=now-1y&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:00:33.9295357+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=2 duration=2.8525ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=5&from=now-1y&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:00:33.9329932+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=6 duration=6.31ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=5&from=now-1y&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=cleanup t=2025-04-24T17:06:35.4662734+03:00 level=info msg="Completed cleanup jobs" duration=23.5948ms
+logger=plugins.update.checker t=2025-04-24T17:06:35.6158518+03:00 level=info msg="Update check succeeded" duration=164.7708ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:08:47.7111516+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=2 duration=2.6436ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=6&from=now-1y&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:08:47.7373446+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=0 duration=916.6µs size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=6&from=now-1y&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:08:47.738406+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=1 duration=1.978ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=6&from=now-1y&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=cleanup t=2025-04-24T17:16:35.4711492+03:00 level=info msg="Completed cleanup jobs" duration=28.4851ms
+logger=plugins.update.checker t=2025-04-24T17:16:35.6936562+03:00 level=info msg="Update check succeeded" duration=242.1403ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:18:51.1837296+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=4 duration=4.005ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=7&from=now%2Fy&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:18:51.2127141+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=2 duration=2.2815ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=7&from=now%2Fy&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T17:18:51.2274163+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=16 duration=16.9837ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=7&from=now%2Fy&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=cleanup t=2025-04-24T17:26:35.4649368+03:00 level=info msg="Completed cleanup jobs" duration=19.3032ms
+logger=plugins.update.checker t=2025-04-24T17:26:35.6039067+03:00 level=info msg="Update check succeeded" duration=151.9348ms
+logger=infra.usagestats t=2025-04-24T17:28:00.4663772+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T17:36:35.5048896+03:00 level=info msg="Completed cleanup jobs" duration=61.7571ms
+logger=plugins.update.checker t=2025-04-24T17:36:35.5981168+03:00 level=info msg="Update check succeeded" duration=146.8048ms
+logger=cleanup t=2025-04-24T17:46:35.5098633+03:00 level=info msg="Completed cleanup jobs" duration=40.6594ms
+logger=plugins.update.checker t=2025-04-24T17:46:35.6525695+03:00 level=info msg="Update check succeeded" duration=194.2871ms
+logger=cleanup t=2025-04-24T17:56:35.4976016+03:00 level=info msg="Completed cleanup jobs" duration=48.4093ms
+logger=plugins.update.checker t=2025-04-24T17:56:35.6388123+03:00 level=info msg="Update check succeeded" duration=187.3505ms
+logger=infra.usagestats t=2025-04-24T17:58:00.4662344+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T18:06:35.5093808+03:00 level=info msg="Completed cleanup jobs" duration=66.4704ms
+logger=plugins.update.checker t=2025-04-24T18:06:35.5980412+03:00 level=info msg="Update check succeeded" duration=146.9722ms
+logger=cleanup t=2025-04-24T18:16:35.4642373+03:00 level=info msg="Completed cleanup jobs" duration=21.295ms
+logger=plugins.update.checker t=2025-04-24T18:16:35.6341103+03:00 level=info msg="Update check succeeded" duration=182.952ms
+logger=cleanup t=2025-04-24T18:26:35.460413+03:00 level=info msg="Completed cleanup jobs" duration=17.5808ms
+logger=plugins.update.checker t=2025-04-24T18:26:35.6751769+03:00 level=info msg="Update check succeeded" duration=224.179ms
+logger=infra.usagestats t=2025-04-24T18:28:00.4660556+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T18:36:35.5049159+03:00 level=info msg="Completed cleanup jobs" duration=61.6153ms
+logger=plugins.update.checker t=2025-04-24T18:36:35.9198746+03:00 level=info msg="Update check succeeded" duration=467.7332ms
+logger=cleanup t=2025-04-24T18:46:35.4913639+03:00 level=info msg="Completed cleanup jobs" duration=47.4865ms
+logger=plugins.update.checker t=2025-04-24T18:46:36.1819498+03:00 level=info msg="Update check succeeded" duration=730.8082ms
+logger=cleanup t=2025-04-24T18:56:35.5080154+03:00 level=info msg="Completed cleanup jobs" duration=64.0949ms
+logger=plugins.update.checker t=2025-04-24T18:56:35.639794+03:00 level=info msg="Update check succeeded" duration=188.5061ms
+logger=infra.usagestats t=2025-04-24T18:58:00.4630651+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T19:06:35.493865+03:00 level=info msg="Completed cleanup jobs" duration=46.4917ms
+logger=plugins.update.checker t=2025-04-24T19:06:36.0327705+03:00 level=info msg="Update check succeeded" duration=580.7846ms
+logger=cleanup t=2025-04-24T19:16:35.4921311+03:00 level=info msg="Completed cleanup jobs" duration=48.5265ms
+logger=plugins.update.checker t=2025-04-24T19:16:35.6414259+03:00 level=info msg="Update check succeeded" duration=189.3895ms
+logger=cleanup t=2025-04-24T19:26:35.4530246+03:00 level=info msg="Completed cleanup jobs" duration=10.4034ms
+logger=plugins.update.checker t=2025-04-24T19:26:35.6357729+03:00 level=info msg="Update check succeeded" duration=184.5475ms
+logger=infra.usagestats t=2025-04-24T19:28:00.4642168+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T19:36:35.4937042+03:00 level=info msg="Completed cleanup jobs" duration=50.4979ms
+logger=plugins.update.checker t=2025-04-24T19:36:35.6451759+03:00 level=info msg="Update check succeeded" duration=193.4979ms
+logger=cleanup t=2025-04-24T19:46:35.4777652+03:00 level=info msg="Completed cleanup jobs" duration=35.2463ms
+logger=plugins.update.checker t=2025-04-24T19:46:35.6145831+03:00 level=info msg="Update check succeeded" duration=162.5417ms
+logger=cleanup t=2025-04-24T19:56:35.4613637+03:00 level=info msg="Completed cleanup jobs" duration=17.8572ms
+logger=plugins.update.checker t=2025-04-24T19:56:35.6557964+03:00 level=info msg="Update check succeeded" duration=204.0263ms
+logger=infra.usagestats t=2025-04-24T19:58:00.4648344+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T20:06:35.5103879+03:00 level=info msg="Completed cleanup jobs" duration=64.917ms
+logger=plugins.update.checker t=2025-04-24T20:06:35.6102394+03:00 level=info msg="Update check succeeded" duration=158.8509ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T20:13:16.7958638+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=7 duration=7.5303ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=8&from=now-1y&orgId=1&showCategory=Value+options&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T20:13:16.8412586+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=2 duration=2.8123ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=8&from=now-1y&orgId=1&showCategory=Value+options&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T20:13:16.8578816+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=19 duration=19.4353ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=8&from=now-1y&orgId=1&showCategory=Value+options&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T20:15:29.8690892+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=4 duration=4.846ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=9&from=now-6M&orgId=1&showCategory=Value+options&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T20:15:29.8977799+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=2 duration=2.5551ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=9&from=now-6M&orgId=1&showCategory=Value+options&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T20:15:29.8977799+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=2 duration=2.5551ms size=103 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?editPanel=9&from=now-6M&orgId=1&showCategory=Value+options&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=cleanup t=2025-04-24T20:16:35.4821478+03:00 level=info msg="Completed cleanup jobs" duration=39.0108ms
+logger=plugins.update.checker t=2025-04-24T20:16:35.6115236+03:00 level=info msg="Update check succeeded" duration=157.8024ms
+logger=cleanup t=2025-04-24T20:26:35.4799644+03:00 level=info msg="Completed cleanup jobs" duration=36.7551ms
+logger=plugins.update.checker t=2025-04-24T20:26:35.609198+03:00 level=info msg="Update check succeeded" duration=157.7167ms
+logger=infra.usagestats t=2025-04-24T20:28:00.4678669+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T20:36:35.5036671+03:00 level=info msg="Completed cleanup jobs" duration=60.4304ms
+logger=plugins.update.checker t=2025-04-24T20:36:35.6363776+03:00 level=info msg="Update check succeeded" duration=184.7908ms
+logger=cleanup t=2025-04-24T20:46:35.4813134+03:00 level=info msg="Completed cleanup jobs" duration=37.5844ms
+logger=plugins.update.checker t=2025-04-24T20:46:35.6031299+03:00 level=info msg="Update check succeeded" duration=151.8146ms
+logger=cleanup t=2025-04-24T20:56:35.4940471+03:00 level=info msg="Completed cleanup jobs" duration=50.3192ms
+logger=plugins.update.checker t=2025-04-24T20:56:35.6268686+03:00 level=info msg="Update check succeeded" duration=175.1634ms
+logger=infra.usagestats t=2025-04-24T20:58:00.4736125+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T21:06:35.5050034+03:00 level=info msg="Completed cleanup jobs" duration=61.8223ms
+logger=plugins.update.checker t=2025-04-24T21:06:35.639583+03:00 level=info msg="Update check succeeded" duration=186.9979ms
+logger=cleanup t=2025-04-24T21:16:35.501875+03:00 level=info msg="Completed cleanup jobs" duration=57.7638ms
+logger=plugins.update.checker t=2025-04-24T21:16:35.6701921+03:00 level=info msg="Update check succeeded" duration=217.8285ms
+logger=cleanup t=2025-04-24T21:26:35.5422955+03:00 level=info msg="Completed cleanup jobs" duration=90.5101ms
+logger=plugins.update.checker t=2025-04-24T21:26:35.6472887+03:00 level=info msg="Update check succeeded" duration=196.5065ms
+logger=infra.usagestats t=2025-04-24T21:28:00.4659193+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T21:36:35.5512117+03:00 level=info msg="Completed cleanup jobs" duration=100.8785ms
+logger=plugins.update.checker t=2025-04-24T21:36:35.6162717+03:00 level=info msg="Update check succeeded" duration=164.1234ms
+logger=cleanup t=2025-04-24T21:46:35.5146157+03:00 level=info msg="Completed cleanup jobs" duration=71.5725ms
+logger=plugins.update.checker t=2025-04-24T21:46:35.6362537+03:00 level=info msg="Update check succeeded" duration=185.8006ms
+logger=cleanup t=2025-04-24T21:56:35.4591687+03:00 level=info msg="Completed cleanup jobs" duration=16.8563ms
+logger=plugins.update.checker t=2025-04-24T21:56:35.605693+03:00 level=info msg="Update check succeeded" duration=153.6137ms
+logger=infra.usagestats t=2025-04-24T21:58:00.4649864+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T22:06:35.4675649+03:00 level=info msg="Completed cleanup jobs" duration=24.8845ms
+logger=plugins.update.checker t=2025-04-24T22:06:35.6089569+03:00 level=info msg="Update check succeeded" duration=158.067ms
+logger=cleanup t=2025-04-24T22:16:35.5198367+03:00 level=info msg="Completed cleanup jobs" duration=74.6393ms
+logger=plugins.update.checker t=2025-04-24T22:16:35.6081651+03:00 level=info msg="Update check succeeded" duration=157.1939ms
+logger=cleanup t=2025-04-24T22:26:35.4605144+03:00 level=info msg="Completed cleanup jobs" duration=18.3838ms
+logger=plugins.update.checker t=2025-04-24T22:26:35.6117941+03:00 level=info msg="Update check succeeded" duration=160.5335ms
+logger=infra.usagestats t=2025-04-24T22:28:00.463796+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T22:36:35.479503+03:00 level=info msg="Completed cleanup jobs" duration=37.5941ms
+logger=plugins.update.checker t=2025-04-24T22:36:35.6092791+03:00 level=info msg="Update check succeeded" duration=157.8325ms
+logger=cleanup t=2025-04-24T22:46:35.488397+03:00 level=info msg="Completed cleanup jobs" duration=45.9472ms
+logger=plugins.update.checker t=2025-04-24T22:46:35.6236801+03:00 level=info msg="Update check succeeded" duration=172.4216ms
+logger=cleanup t=2025-04-24T22:56:35.5532203+03:00 level=info msg="Completed cleanup jobs" duration=110.8415ms
+logger=plugins.update.checker t=2025-04-24T22:56:35.6257303+03:00 level=info msg="Update check succeeded" duration=174.7905ms
+logger=infra.usagestats t=2025-04-24T22:58:00.4646397+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T23:06:35.487982+03:00 level=info msg="Completed cleanup jobs" duration=46.0562ms
+logger=plugins.update.checker t=2025-04-24T23:06:35.8463527+03:00 level=info msg="Update check succeeded" duration=394.7512ms
+logger=cleanup t=2025-04-24T23:16:35.4991923+03:00 level=info msg="Completed cleanup jobs" duration=55.3818ms
+logger=plugins.update.checker t=2025-04-24T23:16:35.6311201+03:00 level=info msg="Update check succeeded" duration=180.277ms
+logger=cleanup t=2025-04-24T23:26:35.4714055+03:00 level=info msg="Completed cleanup jobs" duration=29.2528ms
+logger=plugins.update.checker t=2025-04-24T23:26:35.636689+03:00 level=info msg="Update check succeeded" duration=186.1827ms
+logger=infra.usagestats t=2025-04-24T23:28:00.4635251+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-24T23:36:35.4662704+03:00 level=info msg="Completed cleanup jobs" duration=23.9874ms
+logger=plugins.update.checker t=2025-04-24T23:36:35.6312233+03:00 level=info msg="Update check succeeded" duration=180.6493ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-24T23:43:19.0921139+03:00 level=info msg="Request Completed" method=GET path=/api/dashboards/uid/eejs504x4su80e/public-dashboards status=404 remote_addr=[::1] time_ms=9 duration=9.4624ms size=90 referer="http://localhost:3000/d/eejs504x4su80e/genel-siparis-raporu?from=now-1y&orgId=1&shareView=public_dashboard&timezone=browser&to=now" handler=/api/dashboards/uid/:dashboardUid/public-dashboards status_source=server errorReason=NotFound errorMessageID=publicdashboards.notFound error="FindByDashboardUid: Public dashboard not found by orgId: 1 and dashboardUid: eejs504x4su80e"
+logger=publicdashboards.service t=2025-04-24T23:43:34.2619099+03:00 level=info msg="Public dashboard enabled" publicDashboardUid=bejwuj9po8g74d dashboardUid=eejs504x4su80e user=admin
+logger=cleanup t=2025-04-24T23:46:35.4671808+03:00 level=info msg="Completed cleanup jobs" duration=24.6902ms
+logger=plugins.update.checker t=2025-04-24T23:46:35.6223959+03:00 level=info msg="Update check succeeded" duration=171.5197ms
+logger=cleanup t=2025-04-24T23:56:35.5126024+03:00 level=info msg="Completed cleanup jobs" duration=69.9633ms
+logger=plugins.update.checker t=2025-04-24T23:56:35.6171729+03:00 level=info msg="Update check succeeded" duration=166.0794ms
+logger=infra.usagestats t=2025-04-24T23:58:00.4651761+03:00 level=info msg="Usage stats are ready to report"

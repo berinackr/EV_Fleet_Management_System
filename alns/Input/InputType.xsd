@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Definition of Parameter element -->
+    <xs:element name="Parameter">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="name" type="xs:string" use="required" />
+                    <xs:attribute name="type" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="int"/>
+                                <xs:enumeration value="float" />
+                                <xs:enumeration value="string" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <!-- Definition of Parameters element -->
+    <xs:element name="Parameters">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Parameter" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- Definition of Algorithm element -->
+    <xs:element name="Algorithm">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Parameters"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- Definition of InputType element -->
+    <xs:complexType name="InputType">
+        <xs:sequence>
+            <xs:element ref="Algorithm" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Definition of Input element -->
+</xs:schema>

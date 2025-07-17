@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="evehicle" length="2.88" minGap="2.50" maxSpeed="12.5" vClass="evehicle" emissionClass="Zero/default" accel="1.0" decel="1.0" sigma="0.0">
+        <param key="airDragCoefficient" value="0.48"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="device.battery.capacity" value="3000"/>
+        <param key="device.battery.chargeLevel" value="3000"/>
+        <param key="device.battery.stoppingThreshold" value="0.1"/>
+        <param key="engine.efficiency" value="0.8"/>
+        <param key="frontSurfaceArea" value="2.55"/>
+        <param key="engine.power.max" value="1000"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="mass" value="1000"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="rotatingMass" value="0.01"/>
+    </vType>
+   
+    <vehicle id="veh9" type="evehicle" depart="5.11" color="red">
+        <route edges="-698869618 -698869617#1 -698869617#0 -368620842#8 212712119#1 212712119#2 212712119#3 212712119#4 212712119#5 212712119#6 212712119#7 E17 -727290765#0 212712097#9 212712097#10 212712097#11 212712097#12 212712097#13 212712097#14 212712097#15 212712097#16 -642121509#2 -642121509#1 -642121509#0 -642121509#0.42 212712085#1.130 642121509#0 727290764 -727290763#0 212712097#21 371317618 -371317618 212712097#22 212712097#23 374420990 697983200 E1 697983203 1060234726#2 697983206#0 697983206#1 697983206#2 697983206#3 697983206#4 373178346#0 373178346#1 -373178346#1 -373178346#0 697983206#5 369625684#4 369625682#0 369625682#1 369625682#3 369625682#4 369625682#5 696601822#0 696601822#1 696601822#2 696601822#3 700262764 -700262764 -696601822#3 -696601822#2 -696601822#1 -696601822#0 369625682#6 369625682#7 369625682#8 369625682#9 369625682#10 369625682#11 369625682#12 369625682#13 369625682#14 369625682#15 -E13 -669466787#3 -669466787#2 -669466787#1 -368620842#13 -368620842#12 -368620842#9 698869617#0 698869617#1 698869618 -698869618"/>
+        <stop chargingStation="cs5" duration="0"/>
+        <stop containerStop="13" duration="120"/>
+        <stop containerStop="14" duration="120"/>
+        <stop chargingStation="cs8" duration="262.5011999999999"/>
+        <stop containerStop="113" duration="100"/>
+        <stop containerStop="26" duration="120"/>
+        <stop chargingStation="cs4" duration="251.0748"/>
+        <stop containerStop="31" duration="120"/>
+        <stop chargingStation="cs5" duration="0"/>
+    </vehicle>
+</routes>

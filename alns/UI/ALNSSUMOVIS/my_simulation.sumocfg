@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="C:\Users\Root\Desktop\ALNS_5.1\ALNS\SUMO\RouteVisualization\osm.net.xml"/>
+        <route-files value="my_route.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="10"/>
+    </time>
+</configuration>

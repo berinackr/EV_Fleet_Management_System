@@ -1,0 +1,245 @@
+logger=cleanup t=2025-04-23T00:01:26.6702095+03:00 level=info msg="Completed cleanup jobs" duration=7.3312ms
+logger=plugins.update.checker t=2025-04-23T00:01:26.8567823+03:00 level=info msg="Update check succeeded" duration=181.8182ms
+logger=infra.usagestats t=2025-04-23T00:02:37.6773711+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T00:11:26.7449806+03:00 level=info msg="Completed cleanup jobs" duration=81.5185ms
+logger=plugins.update.checker t=2025-04-23T00:11:26.8386576+03:00 level=info msg="Update check succeeded" duration=164.1692ms
+logger=cleanup t=2025-04-23T00:21:26.753821+03:00 level=info msg="Completed cleanup jobs" duration=88.4954ms
+logger=plugins.update.checker t=2025-04-23T00:21:26.8378018+03:00 level=info msg="Update check succeeded" duration=164.468ms
+logger=cleanup t=2025-04-23T00:31:26.6657427+03:00 level=info msg="Completed cleanup jobs" duration=4.9783ms
+logger=plugins.update.checker t=2025-04-23T00:31:26.8829499+03:00 level=info msg="Update check succeeded" duration=209.4421ms
+logger=infra.usagestats t=2025-04-23T00:32:37.7280412+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T00:41:26.7224219+03:00 level=info msg="Completed cleanup jobs" duration=61.6555ms
+logger=plugins.update.checker t=2025-04-23T00:41:26.8697609+03:00 level=info msg="Update check succeeded" duration=196.956ms
+logger=cleanup t=2025-04-23T00:51:26.7373894+03:00 level=info msg="Completed cleanup jobs" duration=59.082ms
+logger=plugins.update.checker t=2025-04-23T00:51:26.8375551+03:00 level=info msg="Update check succeeded" duration=159.2477ms
+logger=cleanup t=2025-04-23T01:01:26.666867+03:00 level=info msg="Completed cleanup jobs" duration=4.1746ms
+logger=plugins.update.checker t=2025-04-23T01:01:26.8469519+03:00 level=info msg="Update check succeeded" duration=173.4072ms
+logger=infra.usagestats t=2025-04-23T01:02:37.6769763+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T01:11:26.6815487+03:00 level=info msg="Completed cleanup jobs" duration=20.6455ms
+logger=plugins.update.checker t=2025-04-23T01:11:26.8310866+03:00 level=info msg="Update check succeeded" duration=157.9193ms
+logger=cleanup t=2025-04-23T01:21:26.671204+03:00 level=info msg="Completed cleanup jobs" duration=10.4661ms
+logger=plugins.update.checker t=2025-04-23T01:21:26.8770554+03:00 level=info msg="Update check succeeded" duration=204.3882ms
+logger=cleanup t=2025-04-23T01:31:26.6870607+03:00 level=info msg="Completed cleanup jobs" duration=26.5536ms
+logger=plugins.update.checker t=2025-04-23T01:31:26.8385241+03:00 level=info msg="Update check succeeded" duration=165.5768ms
+logger=infra.usagestats t=2025-04-23T01:32:37.6759239+03:00 level=info msg="Usage stats are ready to report"
+logger=infra.usagestats t=2025-04-23T01:34:55.6008165+03:00 level=info msg="Sent usage stats" duration=432.7261ms
+logger=cleanup t=2025-04-23T01:41:26.6973638+03:00 level=info msg="Completed cleanup jobs" duration=36.2607ms
+logger=plugins.update.checker t=2025-04-23T01:41:26.9815352+03:00 level=info msg="Update check succeeded" duration=308.2136ms
+logger=cleanup t=2025-04-23T01:51:26.6790816+03:00 level=info msg="Completed cleanup jobs" duration=18.0154ms
+logger=plugins.update.checker t=2025-04-23T01:51:26.8434302+03:00 level=info msg="Update check succeeded" duration=170.3688ms
+logger=infra.usagestats t=2025-04-23T02:09:38.0561559+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T02:09:38.0693875+03:00 level=info msg="Completed cleanup jobs" duration=43.6667ms
+logger=cleanup t=2025-04-23T02:19:19.8485253+03:00 level=info msg="Completed cleanup jobs" duration=175.488ms
+logger=plugins.update.checker t=2025-04-23T02:19:20.7441002+03:00 level=info msg="Update check succeeded" duration=1.095044s
+logger=infra.usagestats t=2025-04-23T12:23:53.0502154+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T12:23:53.1320174+03:00 level=info msg="Completed cleanup jobs" duration=571.7964ms
+logger=cleanup t=2025-04-23T12:31:26.6880453+03:00 level=info msg="Completed cleanup jobs" duration=25.229ms
+logger=plugins.update.checker t=2025-04-23T12:31:26.8499254+03:00 level=info msg="Update check succeeded" duration=177.3565ms
+logger=infra.usagestats t=2025-04-23T12:32:37.6771451+03:00 level=info msg="Usage stats are ready to report"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Starting Grafana" version=11.5.2 commit=598e0338d5374d6bc404b02a58094132c5eeceb8 branch=HEAD compiled=2025-04-23T12:56:34+03:00
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Config loaded from" file="C:\\Program Files\\GrafanaLabs\\grafana/conf/defaults.ini"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg=Target target=[all]
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Path Home" path="C:\\Program Files\\GrafanaLabs\\grafana"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Path Data" path="C:\\Program Files\\GrafanaLabs\\grafana\\data"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Path Logs" path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\log"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Path Plugins" path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\plugins"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Path Provisioning" path="C:\\Program Files\\GrafanaLabs\\grafana\\conf\\provisioning"
+logger=settings t=2025-04-23T12:56:34.6090687+03:00 level=info msg="App mode production"
+logger=featuremgmt t=2025-04-23T12:56:34.6090687+03:00 level=info msg=FeatureToggles dashboardScene=true preinstallAutoUpdate=true recordedQueriesMulti=true dashboardSceneSolo=true kubernetesPlaylists=true logRowsPopoverMenu=true addFieldFromCalculationStatFunctions=true correlations=true useSessionStorageForRedirection=true ssoSettingsApi=true prometheusAzureOverrideAudience=true accessControlOnCall=true reportingUseRawTimeRange=true alertingSimplifiedRouting=true onPremToCloudMigrations=true lokiLabelNamesQueryApi=true formatString=true alertingApiServer=true panelMonitoring=true annotationPermissionUpdate=true newPDFRendering=true cloudWatchNewLabelParsing=true azureMonitorEnableUserAuth=true pinNavItems=true cloudWatchRoundUpEndTime=true groupToNestedTableTransformation=true newDashboardSharingComponent=true logsInfiniteScrolling=true awsAsyncQueryCaching=true dashboardSceneForViewers=true dataplaneFrontendFallback=true logsContextDatasourceUi=true transformationsVariableSupport=true dashgpt=true lokiStructuredMetadata=true alertingUIOptimizeReducer=true unifiedRequestLog=true accessActionSets=true lokiQueryHints=true managedPluginsInstall=true transformationsRedesign=true publicDashboardsScene=true openSearchBackendFlowEnabled=true lokiQuerySplitting=true angularDeprecationUI=true alertingNoDataErrorExecution=true exploreMetrics=true promQLScope=true logsExploreTableVisualisation=true tlsMemcached=true alertingInsights=true userStorageAPI=true recoveryThreshold=true zipkinBackendMigration=true newFiltersUI=true nestedFolders=true cloudWatchCrossAccountQuerying=true influxdbBackendMigration=true
+logger=sqlstore t=2025-04-23T12:56:34.6090687+03:00 level=info msg="Connecting to DB" dbtype=sqlite3
+logger=sqlstore t=2025-04-23T12:56:34.6090687+03:00 level=warn msg="SQLite database file has broader permissions than it should" path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\grafana.db" mode=-rw-rw-rw- expected=-rw-r-----
+logger=migrator t=2025-04-23T12:56:34.6297667+03:00 level=info msg="Locking database"
+logger=migrator t=2025-04-23T12:56:34.6297667+03:00 level=info msg="Starting DB migrations"
+logger=migrator t=2025-04-23T12:56:34.6541664+03:00 level=info msg="migrations completed" performed=0 skipped=629 duration=0s
+logger=migrator t=2025-04-23T12:56:34.6541664+03:00 level=info msg="Unlocking database"
+logger=secrets t=2025-04-23T12:56:34.6591844+03:00 level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-23T12:56:34.7717671+03:00 level=info msg="Restored cache from database" duration=1.0509ms
+logger=plugin.store t=2025-04-23T12:56:34.7809202+03:00 level=info msg="Loading plugins..."
+logger=plugins.registration t=2025-04-23T12:56:35.2991093+03:00 level=info msg="Plugin registered" pluginId=grafana-lokiexplore-app
+logger=plugins.registration t=2025-04-23T12:56:35.3701753+03:00 level=info msg="Plugin registered" pluginId=grafana-pyroscope-app
+logger=plugin.store t=2025-04-23T12:56:35.3701753+03:00 level=info msg="Plugins loaded" count=56 duration=589.2551ms
+logger=resource-migrator t=2025-04-23T12:56:35.3803161+03:00 level=info msg="Locking database"
+logger=resource-migrator t=2025-04-23T12:56:35.3803161+03:00 level=info msg="Starting DB migrations"
+logger=resource-migrator t=2025-04-23T12:56:35.3803161+03:00 level=info msg="migrations completed" performed=0 skipped=22 duration=0s
+logger=resource-migrator t=2025-04-23T12:56:35.3803161+03:00 level=info msg="Unlocking database"
+logger=query_data t=2025-04-23T12:56:35.3991192+03:00 level=info msg="Query Service initialization"
+logger=live.push_http t=2025-04-23T12:56:35.400641+03:00 level=info msg="Live Push Gateway initialization"
+logger=ngalert.notifier.alertmanager org=1 t=2025-04-23T12:56:35.4111147+03:00 level=info msg="Applying new configuration to Alertmanager" configHash=d2c56faca6af2a5772ff4253222f7386
+logger=ngalert.state.manager t=2025-04-23T12:56:35.4256452+03:00 level=info msg="Running in alternative execution of Error/NoData mode"
+logger=cloudmigration.service t=2025-04-23T12:56:35.4319225+03:00 level=info msg="using gcom client for auth"
+logger=infra.usagestats.collector t=2025-04-23T12:56:35.4319225+03:00 level=info msg="registering usage stat providers" usageStatsProvidersLen=2
+logger=provisioning.alerting t=2025-04-23T12:56:35.4409473+03:00 level=info msg="starting to provision alerting"
+logger=provisioning.alerting t=2025-04-23T12:56:35.4409473+03:00 level=info msg="finished to provision alerting"
+logger=ngalert.multiorg.alertmanager t=2025-04-23T12:56:35.4409473+03:00 level=info msg="Starting MultiOrg Alertmanager"
+logger=grafanaStorageLogger t=2025-04-23T12:56:35.4424579+03:00 level=info msg="Storage starting"
+logger=ngalert.state.manager t=2025-04-23T12:56:35.4409473+03:00 level=info msg="Warming state cache for startup"
+logger=http.server t=2025-04-23T12:56:35.4476029+03:00 level=info msg="HTTP Server Listen" address=[::]:3000 protocol=http subUrl= socket=
+logger=plugin.backgroundinstaller t=2025-04-23T12:56:35.45114+03:00 level=error msg="Failed to get plugin info" pluginId=grafana-lokiexplore-app error="Get \"https://grafana.com/api/plugins/grafana-lokiexplore-app/versions\": dial tcp: lookup grafana.com: no such host"
+logger=grafana.update.checker t=2025-04-23T12:56:35.45114+03:00 level=error msg="Update check failed" error="failed to get stable version from grafana.com: Get \"https://grafana.com/api/grafana/versions/stable\": dial tcp: lookup grafana.com: no such host" duration=10.1927ms
+logger=plugin.backgroundinstaller t=2025-04-23T12:56:35.45114+03:00 level=error msg="Failed to get plugin info" pluginId=grafana-pyroscope-app error="Get \"https://grafana.com/api/plugins/grafana-pyroscope-app/versions\": dial tcp: lookup grafana.com: no such host"
+logger=provisioning.dashboard t=2025-04-23T12:56:35.4986981+03:00 level=info msg="starting to provision dashboards"
+logger=provisioning.dashboard t=2025-04-23T12:56:35.4986981+03:00 level=info msg="finished to provision dashboards"
+logger=ngalert.state.manager t=2025-04-23T12:56:35.5143269+03:00 level=info msg="State cache has been initialized" states=0 duration=73.3796ms
+logger=ngalert.scheduler t=2025-04-23T12:56:35.5148548+03:00 level=info msg="Starting scheduler" tickInterval=10s maxAttempts=3
+logger=ticker t=2025-04-23T12:56:35.5148548+03:00 level=info msg=starting first_tick=2025-04-23T12:56:40+03:00
+logger=grafana-apiserver t=2025-04-23T12:56:35.9091055+03:00 level=info msg="Adding GroupVersion iam.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9116728+03:00 level=info msg="Adding GroupVersion notifications.alerting.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9116728+03:00 level=info msg="Adding GroupVersion userstorage.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9116728+03:00 level=info msg="Adding GroupVersion playlist.grafana.app v0alpha1 to ResourceManager"
+logger=resource-server t=2025-04-23T12:56:35.9116728+03:00 level=warn msg="failed to register storage metrics" error="duplicate metrics collector registration attempted"
+logger=resource-server t=2025-04-23T12:56:35.9116728+03:00 level=warn msg="failed to register storage metrics" error="duplicate metrics collector registration attempted"
+logger=resource-server t=2025-04-23T12:56:35.9116728+03:00 level=warn msg="failed to register storage metrics" error="duplicate metrics collector registration attempted"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9172289+03:00 level=info msg="Adding GroupVersion dashboard.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9172289+03:00 level=info msg="Adding GroupVersion dashboard.grafana.app v1alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9192339+03:00 level=info msg="Adding GroupVersion dashboard.grafana.app v2alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-23T12:56:35.9192339+03:00 level=info msg="Adding GroupVersion featuretoggle.grafana.app v0alpha1 to ResourceManager"
+logger=app-registry t=2025-04-23T12:56:35.959098+03:00 level=info msg="app registry initialized"
+logger=infra.usagestats t=2025-04-23T12:58:00.4587504+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T13:06:35.5389189+03:00 level=info msg="Completed cleanup jobs" duration=95.0033ms
+logger=plugins.update.checker t=2025-04-23T13:06:35.7058949+03:00 level=info msg="Update check succeeded" duration=253.8404ms
+logger=cleanup t=2025-04-23T13:16:35.4692804+03:00 level=info msg="Completed cleanup jobs" duration=26.22ms
+logger=plugins.update.checker t=2025-04-23T13:16:35.6397799+03:00 level=info msg="Update check succeeded" duration=188.3215ms
+logger=cleanup t=2025-04-23T13:26:35.4843157+03:00 level=info msg="Completed cleanup jobs" duration=40.4366ms
+logger=plugins.update.checker t=2025-04-23T13:26:35.6373236+03:00 level=info msg="Update check succeeded" duration=184.4956ms
+logger=infra.usagestats t=2025-04-23T13:28:00.466775+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T13:36:35.4706304+03:00 level=info msg="Completed cleanup jobs" duration=27.8461ms
+logger=plugins.update.checker t=2025-04-23T13:36:35.6387774+03:00 level=info msg="Update check succeeded" duration=186.7453ms
+logger=cleanup t=2025-04-23T13:46:35.5136343+03:00 level=info msg="Completed cleanup jobs" duration=68.8741ms
+logger=plugins.update.checker t=2025-04-23T13:46:35.6269191+03:00 level=info msg="Update check succeeded" duration=175.2925ms
+logger=cleanup t=2025-04-23T13:56:35.4539339+03:00 level=info msg="Completed cleanup jobs" duration=10.783ms
+logger=plugins.update.checker t=2025-04-23T13:56:35.6457705+03:00 level=info msg="Update check succeeded" duration=190.8188ms
+logger=infra.usagestats t=2025-04-23T13:58:00.4624226+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T14:06:35.5121539+03:00 level=info msg="Completed cleanup jobs" duration=69.2218ms
+logger=plugins.update.checker t=2025-04-23T14:06:35.600171+03:00 level=info msg="Update check succeeded" duration=148.3962ms
+logger=cleanup t=2025-04-23T14:16:35.4715685+03:00 level=info msg="Completed cleanup jobs" duration=28.9974ms
+logger=plugins.update.checker t=2025-04-23T14:16:36.0299272+03:00 level=info msg="Update check succeeded" duration=578.1704ms
+logger=cleanup t=2025-04-23T14:26:35.502531+03:00 level=info msg="Completed cleanup jobs" duration=59.8821ms
+logger=plugins.update.checker t=2025-04-23T14:26:35.6050059+03:00 level=info msg="Update check succeeded" duration=153.7627ms
+logger=infra.usagestats t=2025-04-23T14:28:00.4636043+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T14:36:35.5025945+03:00 level=info msg="Completed cleanup jobs" duration=60.0331ms
+logger=plugins.update.checker t=2025-04-23T14:36:35.7040864+03:00 level=info msg="Update check succeeded" duration=252.3972ms
+logger=cleanup t=2025-04-23T14:46:35.4704743+03:00 level=info msg="Completed cleanup jobs" duration=27.6292ms
+logger=plugins.update.checker t=2025-04-23T14:46:35.5968611+03:00 level=info msg="Update check succeeded" duration=144.964ms
+logger=cleanup t=2025-04-23T14:56:35.5016423+03:00 level=info msg="Completed cleanup jobs" duration=54.543ms
+logger=plugins.update.checker t=2025-04-23T14:56:35.6172098+03:00 level=info msg="Update check succeeded" duration=163.6072ms
+logger=infra.usagestats t=2025-04-23T14:58:00.4643912+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T15:06:35.4805518+03:00 level=info msg="Completed cleanup jobs" duration=36.7372ms
+logger=plugins.update.checker t=2025-04-23T15:06:35.6053038+03:00 level=info msg="Update check succeeded" duration=152.9348ms
+logger=cleanup t=2025-04-23T15:16:35.4555637+03:00 level=info msg="Completed cleanup jobs" duration=12.7856ms
+logger=plugins.update.checker t=2025-04-23T15:16:35.6010016+03:00 level=info msg="Update check succeeded" duration=147.9616ms
+logger=cleanup t=2025-04-23T15:26:35.4616038+03:00 level=info msg="Completed cleanup jobs" duration=18.6769ms
+logger=plugins.update.checker t=2025-04-23T15:26:35.6308444+03:00 level=info msg="Update check succeeded" duration=171.9023ms
+logger=infra.usagestats t=2025-04-23T15:28:00.4715267+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T15:36:35.4883394+03:00 level=info msg="Completed cleanup jobs" duration=43.5816ms
+logger=plugins.update.checker t=2025-04-23T15:36:35.7317742+03:00 level=info msg="Update check succeeded" duration=276.9247ms
+logger=authn.service t=2025-04-23T15:38:38.396271+03:00 level=warn msg="Failed to authenticate request" client=auth.client.session error="user token not found"
+logger=context userId=0 orgId=0 uname= t=2025-04-23T15:38:38.396271+03:00 level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=[::1] time_ms=7 duration=7.0753ms size=29 referer= handler=/ status_source=server
+logger=authn.service t=2025-04-23T15:38:38.3990065+03:00 level=warn msg="Failed to authenticate request" client=auth.client.session error="user token not found"
+logger=authn.service t=2025-04-23T15:38:43.5517573+03:00 level=warn msg="Failed to authenticate request" client=auth.client.session error="user token not found"
+logger=authn.service t=2025-04-23T15:38:43.5535789+03:00 level=info msg="Failed to authenticate request" client=auth.client.form error="[password-auth.failed] failed to authenticate identity: [identity.not-found] no user found: user not found"
+logger=context userId=0 orgId=0 uname= t=2025-04-23T15:38:43.5535789+03:00 level=info msg="Request Completed" method=POST path=/login status=401 remote_addr=[::1] time_ms=4 duration=4.8087ms size=94 referer=http://localhost:3000/login handler=/login status_source=server errorReason=Unauthorized errorMessageID=password-auth.failed error="failed to authenticate identity: [identity.not-found] no user found: user not found"
+logger=authn.service t=2025-04-23T15:38:49.5640963+03:00 level=warn msg="Failed to authenticate request" client=auth.client.session error="user token not found"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:38:49.8413009+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=3 duration=3.8142ms size=0 referer= handler=/api/live/ws status_source=server
+logger=cleanup t=2025-04-23T15:46:35.4650151+03:00 level=info msg="Completed cleanup jobs" duration=22.2013ms
+logger=plugins.update.checker t=2025-04-23T15:46:35.6151557+03:00 level=info msg="Update check succeeded" duration=163.4924ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:47:25.9542687+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=16 duration=16.4781ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:47:25.9823754+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=3 duration=3.148ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:47:25.9823754+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=1 duration=1.8718ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:48:14.0123199+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=6 duration=6.7492ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:48:14.0463402+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=2 duration=2.6115ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:48:14.047275+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=3 duration=3.5463ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=plugin.coreplugin endpoint=checkHealth pluginId=mysql dsName=FleetDB dsUID=cejs3drek45c0f uname=admin t=2025-04-23T15:51:28.2404963+03:00 level=error msg="Check health failed" error="TLS requested but server does not support TLS" message_type=ds_config_health_check_error_detailed details="{\"config_allow_clear_text_passwords\":false,\"config_authentication_type\":\"\",\"config_conn_max_life_time\":14400,\"config_conn_timeout\":0,\"config_database_length\":8,\"config_enable_secure_proxy\":false,\"config_encrypt_length\":0,\"config_json_data_database_length\":8,\"config_max_idle_conns\":100,\"config_max_open_conns\":100,\"config_password_length\":6,\"config_server_name_length\":0,\"config_ssl_cert_file_length\":0,\"config_ssl_key_file_length\":0,\"config_ssl_mode\":\"\",\"config_ssl_root_cert_file_length\":0,\"config_time_interval\":\"\",\"config_timescaledb\":false,\"config_timezone\":\"\",\"config_tls_ca_cert_length\":0,\"config_tls_client_cert_length\":0,\"config_tls_client_key_length\":0,\"config_tls_configuration_method\":\"\",\"config_tls_skip_verify\":true,\"config_url_length\":14,\"config_user_length\":4}"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:51:28.2404963+03:00 level=info msg="Request Completed" method=GET path=/api/datasources/uid/cejs3drek45c0f/health status=400 remote_addr=[::1] time_ms=6 duration=6.9478ms size=89 referer=http://localhost:3000/connections/datasources/edit/cejs3drek45c0f handler=/api/datasources/uid/:uid/health status_source=server
+logger=plugin.coreplugin endpoint=checkHealth pluginId=mysql dsName=FleetDB dsUID=cejs3drek45c0f uname=admin t=2025-04-23T15:52:13.257342+03:00 level=error msg="Check health failed" error="TLS requested but server does not support TLS" message_type=ds_config_health_check_error_detailed details="{\"config_allow_clear_text_passwords\":false,\"config_authentication_type\":\"\",\"config_conn_max_life_time\":14400,\"config_conn_timeout\":0,\"config_database_length\":8,\"config_enable_secure_proxy\":false,\"config_encrypt_length\":0,\"config_json_data_database_length\":8,\"config_max_idle_conns\":100,\"config_max_open_conns\":100,\"config_password_length\":6,\"config_server_name_length\":0,\"config_ssl_cert_file_length\":0,\"config_ssl_key_file_length\":0,\"config_ssl_mode\":\"\",\"config_ssl_root_cert_file_length\":0,\"config_time_interval\":\"\",\"config_timescaledb\":false,\"config_timezone\":\"\",\"config_tls_ca_cert_length\":0,\"config_tls_client_cert_length\":0,\"config_tls_client_key_length\":0,\"config_tls_configuration_method\":\"\",\"config_tls_skip_verify\":true,\"config_url_length\":14,\"config_user_length\":4}"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:52:13.2580488+03:00 level=info msg="Request Completed" method=GET path=/api/datasources/uid/cejs3drek45c0f/health status=400 remote_addr=[::1] time_ms=4 duration=4.754ms size=89 referer=http://localhost:3000/connections/datasources/edit/cejs3drek45c0f handler=/api/datasources/uid/:uid/health status_source=server
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:53:53.1024224+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=5 duration=5.2491ms size=0 referer= handler=/api/live/ws status_source=server
+logger=plugin.coreplugin endpoint=checkHealth pluginId=mysql dsName=FleetDB dsUID=cejs49dcivf28e uname=admin t=2025-04-23T15:55:29.4266455+03:00 level=error msg="Check health failed" error="TLS requested but server does not support TLS" message_type=ds_config_health_check_error_detailed details="{\"config_allow_clear_text_passwords\":false,\"config_authentication_type\":\"\",\"config_conn_max_life_time\":14400,\"config_conn_timeout\":0,\"config_database_length\":8,\"config_enable_secure_proxy\":false,\"config_encrypt_length\":0,\"config_json_data_database_length\":8,\"config_max_idle_conns\":100,\"config_max_open_conns\":100,\"config_password_length\":6,\"config_server_name_length\":0,\"config_ssl_cert_file_length\":0,\"config_ssl_key_file_length\":0,\"config_ssl_mode\":\"\",\"config_ssl_root_cert_file_length\":0,\"config_time_interval\":\"\",\"config_timescaledb\":false,\"config_timezone\":\"\",\"config_tls_ca_cert_length\":0,\"config_tls_client_cert_length\":0,\"config_tls_client_key_length\":0,\"config_tls_configuration_method\":\"\",\"config_tls_skip_verify\":true,\"config_url_length\":14,\"config_user_length\":4}"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:55:29.427178+03:00 level=info msg="Request Completed" method=GET path=/api/datasources/uid/cejs49dcivf28e/health status=400 remote_addr=[::1] time_ms=3 duration=3.6115ms size=89 referer=http://localhost:3000/connections/datasources/edit/cejs49dcivf28e handler=/api/datasources/uid/:uid/health status_source=server
+logger=cleanup t=2025-04-23T15:56:35.4700456+03:00 level=info msg="Completed cleanup jobs" duration=25.7957ms
+logger=plugins.update.checker t=2025-04-23T15:56:35.6089747+03:00 level=info msg="Update check succeeded" duration=157.619ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:56:40.3814913+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/label/__name__/values status=500 remote_addr=[::1] time_ms=4 duration=4.9462ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:56:40.4167023+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/labels status=500 remote_addr=[::1] time_ms=1 duration=1.3322ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T15:56:40.4167023+03:00 level=error msg="Request Completed" method=GET path=/api/datasources/uid/bef0e8g9vp3b4d/resources/api/v1/metadata status=500 remote_addr=[::1] time_ms=2 duration=2.332ms size=103 referer="http://localhost:3000/dashboard/new?editPanel=1&from=now-6h&orgId=1&timezone=browser&to=now" handler=/api/datasources/uid/:uid/resources/* status_source=downstream errorReason=InternalError errorMessageID=plugin.downstreamError error="client: failed to call resources: error querying resource: parse \"\": empty url"
+logger=infra.usagestats t=2025-04-23T15:58:00.4644806+03:00 level=info msg="Usage stats are ready to report"
+logger=live t=2025-04-23T16:03:06.6324203+03:00 level=info msg="Initialized channel handler" channel=grafana/dashboard/uid/eejs504x4su80e address=grafana/dashboard/uid/eejs504x4su80e
+logger=cleanup t=2025-04-23T16:06:35.4754923+03:00 level=info msg="Completed cleanup jobs" duration=32.3566ms
+logger=plugins.update.checker t=2025-04-23T16:06:35.614936+03:00 level=info msg="Update check succeeded" duration=162.3923ms
+logger=cleanup t=2025-04-23T16:16:35.4939789+03:00 level=info msg="Completed cleanup jobs" duration=51.2119ms
+logger=plugins.update.checker t=2025-04-23T16:16:35.673499+03:00 level=info msg="Update check succeeded" duration=221.5057ms
+logger=cleanup t=2025-04-23T16:26:35.5448396+03:00 level=info msg="Completed cleanup jobs" duration=101.6321ms
+logger=plugins.update.checker t=2025-04-23T16:26:35.6361174+03:00 level=info msg="Update check succeeded" duration=184.5398ms
+logger=infra.usagestats t=2025-04-23T16:28:00.4651239+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T16:36:35.449853+03:00 level=info msg="Completed cleanup jobs" duration=1.5111ms
+logger=plugins.update.checker t=2025-04-23T16:36:35.6366904+03:00 level=info msg="Update check succeeded" duration=182.3811ms
+logger=cleanup t=2025-04-23T16:46:35.4548464+03:00 level=info msg="Completed cleanup jobs" duration=11.9199ms
+logger=plugins.update.checker t=2025-04-23T16:46:35.6262879+03:00 level=info msg="Update check succeeded" duration=174.8774ms
+logger=cleanup t=2025-04-23T17:13:07.4365355+03:00 level=info msg="Completed cleanup jobs" duration=39.811ms
+logger=infra.usagestats t=2025-04-23T17:13:07.569297+03:00 level=info msg="Usage stats are ready to report"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T17:13:09.6829079+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=26 duration=26.5409ms size=0 referer= handler=/api/live/ws status_source=server
+logger=cleanup t=2025-04-23T17:16:56.2941847+03:00 level=info msg="Completed cleanup jobs" duration=135.6504ms
+logger=cleanup t=2025-04-23T17:27:06.1076224+03:00 level=info msg="Completed cleanup jobs" duration=185.3992ms
+logger=infra.usagestats t=2025-04-23T17:28:09.7968891+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T17:36:56.2201688+03:00 level=info msg="Completed cleanup jobs" duration=64.9842ms
+logger=cleanup t=2025-04-23T17:46:50.3940038+03:00 level=info msg="Completed cleanup jobs" duration=52.8065ms
+logger=cleanup t=2025-04-23T17:57:59.5160893+03:00 level=info msg="Completed cleanup jobs" duration=92.3573ms
+logger=infra.usagestats t=2025-04-23T17:58:15.80742+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T18:07:17.8380179+03:00 level=info msg="Completed cleanup jobs" duration=19.6809ms
+logger=cleanup t=2025-04-23T18:16:51.3785574+03:00 level=info msg="Completed cleanup jobs" duration=227.5043ms
+logger=cleanup t=2025-04-23T18:28:03.0288748+03:00 level=info msg="Completed cleanup jobs" duration=198.3695ms
+logger=infra.usagestats t=2025-04-23T18:28:03.0625527+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T18:37:25.8565464+03:00 level=info msg="Completed cleanup jobs" duration=32.7904ms
+logger=cleanup t=2025-04-23T18:46:55.1053471+03:00 level=info msg="Completed cleanup jobs" duration=196.3565ms
+logger=plugins.update.checker t=2025-04-23T18:46:55.2363248+03:00 level=info msg="Update check succeeded" duration=329.4953ms
+logger=context userId=0 orgId=0 uname= t=2025-04-23T18:55:55.57051+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=401 remote_addr=[::1] time_ms=0 duration=504.1µs size=105 referer= handler=/api/live/ws status_source=server errorReason=Unauthorized errorMessageID=session.token.rotate error="token needs to be rotated"
+logger=cleanup t=2025-04-23T18:56:35.463106+03:00 level=info msg="Completed cleanup jobs" duration=19.7044ms
+logger=plugins.update.checker t=2025-04-23T18:56:35.6284361+03:00 level=info msg="Update check succeeded" duration=176.4186ms
+logger=infra.usagestats t=2025-04-23T18:58:28.9957773+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T19:06:44.1559732+03:00 level=info msg="Completed cleanup jobs" duration=48.4139ms
+logger=cleanup t=2025-04-23T19:17:02.9555944+03:00 level=info msg="Completed cleanup jobs" duration=16.7696ms
+logger=cleanup t=2025-04-23T19:26:50.9002076+03:00 level=info msg="Completed cleanup jobs" duration=59.826ms
+logger=infra.usagestats t=2025-04-23T19:28:23.7807666+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T19:36:38.8722653+03:00 level=info msg="Completed cleanup jobs" duration=173.7029ms
+logger=cleanup t=2025-04-23T19:47:28.5891794+03:00 level=info msg="Completed cleanup jobs" duration=176.0684ms
+logger=cleanup t=2025-04-23T19:56:45.3417155+03:00 level=info msg="Completed cleanup jobs" duration=89.6915ms
+logger=infra.usagestats t=2025-04-23T19:58:18.0755341+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T20:07:03.9730394+03:00 level=info msg="Completed cleanup jobs" duration=75.2133ms
+logger=cleanup t=2025-04-23T20:17:22.7285233+03:00 level=info msg="Completed cleanup jobs" duration=179.9034ms
+logger=cleanup t=2025-04-23T20:26:52.878502+03:00 level=info msg="Completed cleanup jobs" duration=157.1986ms
+logger=infra.usagestats t=2025-04-23T20:28:22.7887231+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T20:36:58.2159468+03:00 level=info msg="Completed cleanup jobs" duration=220.3532ms
+logger=cleanup t=2025-04-23T20:47:01.5601866+03:00 level=info msg="Completed cleanup jobs" duration=218.5644ms
+logger=cleanup t=2025-04-23T20:57:04.5448697+03:00 level=info msg="Completed cleanup jobs" duration=76.5251ms
+logger=infra.usagestats t=2025-04-23T20:58:06.1984718+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T21:06:52.0314515+03:00 level=info msg="Completed cleanup jobs" duration=29.7441ms
+logger=cleanup t=2025-04-23T21:17:10.8209149+03:00 level=info msg="Completed cleanup jobs" duration=214.4492ms
+logger=cleanup t=2025-04-23T21:27:29.5230524+03:00 level=info msg="Completed cleanup jobs" duration=31.18209s
+logger=infra.usagestats t=2025-04-23T21:28:00.4698216+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T21:37:17.1443083+03:00 level=info msg="Completed cleanup jobs" duration=31.0041991s
+logger=cleanup t=2025-04-23T21:46:57.6060501+03:00 level=info msg="Completed cleanup jobs" duration=54.7572ms
+logger=plugins.update.checker t=2025-04-23T21:46:57.997907+03:00 level=info msg="Update check succeeded" duration=450.4223ms
+logger=cleanup t=2025-04-23T21:56:52.690644+03:00 level=info msg="Completed cleanup jobs" duration=13.9337ms
+logger=infra.usagestats t=2025-04-23T21:58:25.4906878+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T22:07:11.3819583+03:00 level=info msg="Completed cleanup jobs" duration=31.0023481s
+logger=cleanup t=2025-04-23T22:16:41.3015303+03:00 level=info msg="Completed cleanup jobs" duration=20.0997ms
+logger=plugins.update.checker t=2025-04-23T22:16:41.6343759+03:00 level=info msg="Update check succeeded" duration=352.9453ms
+logger=cleanup t=2025-04-23T22:26:46.9408673+03:00 level=info msg="Completed cleanup jobs" duration=192.5592ms
+logger=infra.usagestats t=2025-04-23T22:28:19.601278+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T22:36:35.4491866+03:00 level=info msg="Completed cleanup jobs" duration=6.584ms
+logger=cleanup t=2025-04-23T22:47:24.1016933+03:00 level=info msg="Completed cleanup jobs" duration=31.6237ms
+logger=cleanup t=2025-04-23T22:56:40.880873+03:00 level=info msg="Completed cleanup jobs" duration=78.1505ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-23T22:56:51.4538639+03:00 level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=[::1] time_ms=66 duration=66.7883ms size=0 referer= handler=/api/live/ws status_source=server
+logger=infra.usagestats t=2025-04-23T22:58:00.466641+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T23:06:35.5083991+03:00 level=info msg="Completed cleanup jobs" duration=64.3008ms
+logger=plugins.update.checker t=2025-04-23T23:06:35.626815+03:00 level=info msg="Update check succeeded" duration=174.6243ms
+logger=cleanup t=2025-04-23T23:16:35.5240313+03:00 level=info msg="Completed cleanup jobs" duration=81.3429ms
+logger=plugins.update.checker t=2025-04-23T23:16:35.6347242+03:00 level=info msg="Update check succeeded" duration=183.3916ms
+logger=cleanup t=2025-04-23T23:26:35.5010429+03:00 level=info msg="Completed cleanup jobs" duration=58.4017ms
+logger=plugins.update.checker t=2025-04-23T23:26:35.6194736+03:00 level=info msg="Update check succeeded" duration=166.4122ms
+logger=infra.usagestats t=2025-04-23T23:28:00.4669966+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-23T23:36:35.5704966+03:00 level=info msg="Completed cleanup jobs" duration=127.9711ms
+logger=plugins.update.checker t=2025-04-23T23:36:35.6227035+03:00 level=info msg="Update check succeeded" duration=171.5086ms
+logger=cleanup t=2025-04-23T23:46:35.4645828+03:00 level=info msg="Completed cleanup jobs" duration=21.6205ms
+logger=plugins.update.checker t=2025-04-23T23:46:35.6380637+03:00 level=info msg="Update check succeeded" duration=186.2791ms
+logger=cleanup t=2025-04-23T23:56:35.5086546+03:00 level=info msg="Completed cleanup jobs" duration=65.9758ms
+logger=plugins.update.checker t=2025-04-23T23:56:35.6159994+03:00 level=info msg="Update check succeeded" duration=164.8121ms
+logger=infra.usagestats t=2025-04-23T23:58:00.4648447+03:00 level=info msg="Usage stats are ready to report"

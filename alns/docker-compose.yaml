@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  alns-api:
+    build: .
+    ports:
+      - "8005:8005"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - API_PORT=8005
+      - API_HOST=0.0.0.0
+      - LOG_LEVEL=INFO
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8005/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped

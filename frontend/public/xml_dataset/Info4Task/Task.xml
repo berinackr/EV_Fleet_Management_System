@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <Info4Task>
+      <Task>
+        <CEVRPTW NumberOfDelivery="3" NumberOfPickup="0">
+          <Nodes>
+            <Node No="121" Name="cs5" Type="Entrance">
+              <Location>
+                <Latitude>39.751377</Latitude>
+                <Longitude>30.481888</Longitude>
+              </Location>
+            </Node>
+            <Node No="121" Name="cs5" Type="Exit">
+              <Location>
+                <Latitude>39.751377</Latitude>
+                <Longitude>30.481888</Longitude>
+              </Location>
+            </Node>
+            <Node No="121" Name="cs5" Type="DepoCharging">
+              <Location>
+                <Latitude>39.751377</Latitude>
+                <Longitude>30.481888</Longitude>
+              </Location>
+            </Node>
+            
+            <Node No="1" Name="1" Type="Delivery">
+              <Location>
+                <Latitude>39.75250570103818</Latitude>
+                <Longitude>30.490999148931902</Longitude>
+              </Location>
+              <Requests>
+                <Request ProductId="SU_0" ProductName="OPEVA Doğal Kaynak Suyu" ReadyTime="245" ServiceTime="120" DueDate="580">
+                  <LoadInformation>
+                    <Weight>38</Weight>
+                    <Quantity>2</Quantity>
+                  </LoadInformation>
+                </Request>
+              </Requests>
+            </Node>
+        
+            <Node No="23" Name="24" Type="Delivery">
+              <Location>
+                <Latitude>39.75075840001727</Latitude>
+                <Longitude>30.48876465362253</Longitude>
+              </Location>
+              <Requests>
+                <Request ProductId="SU_0" ProductName="OPEVA Doğal Kaynak Suyu" ReadyTime="366" ServiceTime="120" DueDate="427">
+                  <LoadInformation>
+                    <Weight>38</Weight>
+                    <Quantity>2</Quantity>
+                  </LoadInformation>
+                </Request>
+              </Requests>
+            </Node>
+        
+            <Node No="98" Name="22A" Type="Delivery">
+              <Location>
+                <Latitude>39.75073912772263</Latitude>
+                <Longitude>30.489428025110282</Longitude>
+              </Location>
+              <Requests>
+                <Request ProductId="SU_0" ProductName="OPEVA Doğal Kaynak Suyu" ReadyTime="1476" ServiceTime="240" DueDate="1540">
+                  <LoadInformation>
+                    <Weight>95</Weight>
+                    <Quantity>5</Quantity>
+                  </LoadInformation>
+                </Request>
+              </Requests>
+            </Node>
+          </Nodes>
+        </CEVRPTW>
+        <PerformanceMeasure>
+          <ObjectiveFunction Name="MinDistance"></ObjectiveFunction>
+        </PerformanceMeasure>
+      </Task>
+    </Info4Task>

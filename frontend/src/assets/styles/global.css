@@ -1,0 +1,615 @@
+/* ===================================
+   GLOBAL STYLES
+=================================== */
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../fonts/SF-Pro-Text-Regular.otf') format('opentype'); /* Assuming you have a Regular version */
+  font-weight: 400; /* Normal/Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../fonts/SF-Pro-Text-Medium.otf') format('opentype'); /* Assuming you have a Medium version */
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../fonts/SF-Pro-Text-Semibold.otf') format('opentype'); /* Assuming you have a Semibold version */
+  font-weight: 600; /* Semibold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../fonts/SF-Pro-Text-Bold.otf') format('opentype'); /* Assuming you have a Bold version */
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Text', sans-serif;
+  /* Default font-weight will be 400 as per the first @font-face rule if not overridden */
+}
+
+h1, h2, h3 {
+  font-weight: 600; /* Semibold Başlıklar, or 700 for Bold */
+}
+
+p, span, a {
+  font-weight: 400; /* Regular Metin */
+}
+
+button {
+  font-weight: 500; /* Medium Butonlar */
+}
+body {
+  background-color: #EAEDED;
+  color: #2C3E50;
+  font-size: 16px;
+  line-height: 1.8;
+  padding-bottom: 80px; /* Footer spacing */
+}
+
+.bjs-container {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+/* ===================================
+ LEAFLET MAP
+=================================== */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #BDC3C7;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Fix map container styles for consistent rendering */
+.leaflet-container {
+width: 100%;
+height: 100%;
+border-radius: 0;
+border: none;
+box-shadow: none;
+outline: none;
+}
+
+/* Fix map container styles for consistent fixed heights */
+.leaflet-container {
+height: 100% !important;
+width: 100% !important;
+min-height: 550px !important;
+border: none;
+box-shadow: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+/* Make sure map controls appear above other elements */
+.leaflet-control-container {
+z-index: 1000;
+}
+
+/* Ensure consistent map controls */
+.leaflet-control-zoom {
+margin: 10px !important;
+}
+
+/* Ensure map popups appear above other elements */
+.leaflet-popup {
+z-index: 1500;
+}
+
+/* Fix any potential z-index issues with overlapping elements */
+.map-container {
+position: relative;
+z-index: 10;
+}
+
+.leaflet-control-layers {
+background-color: black !important;
+color: white !important;
+border-radius: 8px;
+padding: 6px;
+opacity: 0.9;
+}
+
+.leaflet-control-layers label {
+color: white !important;
+}
+.leaflet-control-layers {
+background-color: black !important;
+color: white !important;
+border-radius: 8px;
+padding: 6px;
+opacity: 0.9;
+}
+
+.leaflet-control-layers label {
+color: white !important;
+}
+
+/* Map overlay for loading/error messages */
+.map-overlay {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(255, 255, 255, 0.7);
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+color: #333;
+}
+
+/* Ensure proper map container positions */
+.map-container {
+position: relative;
+z-index: 1;
+overflow: hidden;
+}
+
+/* Style adjustments for split view */
+.map-header {
+background-color: #2196F3;
+color: white;
+padding: 8px 12px;
+font-weight: bold;
+z-index: 2;
+}
+
+/* Ensure no extra margin/padding causing alignment issues */
+.map-wrapper {
+margin: 0;
+padding: 0;
+border: none;
+overflow: hidden;
+}
+
+/* Fix for Safari map rendering */
+@supports (-webkit-appearance:none) {
+.leaflet-container {
+  will-change: transform;
+}
+}
+
+/* Prevent Safari resize issues */
+@supports (-webkit-appearance:none) {
+.leaflet-container, 
+.map-container {
+  transform: translate3d(0,0,0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+}
+
+/* Fix parent containers */
+.map-wrapper {
+height: 600px !important;
+min-height: 600px !important;
+position: relative !important;
+display: block !important;
+border: none !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+/* Ensure FIWARE map maintains consistent height */
+.fiware-map-container {
+height: 550px !important;
+min-height: 550px !important;
+position: relative !important;
+display: block !important;
+}
+
+/* ===================================
+ SCROLLING BANNER - IMPROVED DESIGN
+=================================== */
+.scrolling-banner {
+  width: 100%;
+  background: linear-gradient(to right, #f7f5f5, #f7f5f5);
+  color: #252522;
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 1px 0;
+  border-bottom: 0.5px solid #444444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scrolling-banner-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+  padding-right: 20%;  /* Daha fazla boşluk ekleyerek tekrar başlangıcını gizler */
+}
+
+.scrolling-item {
+  display: inline-block;
+  margin-right: 18px; /* Her araç arasında daha fazla boşluk */
+  font-weight: 500;
+  color: #252522;
+  letter-spacing: 0.8px;
+  padding: 4px 8px; /* Daha fazla iç boşluk */
+  border-radius: 6px;
+  background: #ffffff13; /* Hafif bir vurgulama */
+  transition: transform 0.3s ease, background 1s ease;
+}
+
+.scrolling-item:hover {
+  background: #317421;
+  color: #FFFFFF;
+  transform: scale(1.05);
+}
+
+/* Kayan Yazı Animasyonu */
+@keyframes scroll-left {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+  .scrolling-item {
+      font-size: 14px;
+      margin-right: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scrolling-item {
+      font-size: 12px;
+      margin-right: 10px;
+  }
+}
+
+/* ===================================
+ NAVBAR STYLES - CLEAN VERSION
+=================================== */
+.navbar {
+position: sticky;
+top: 0;
+z-index: 1000;
+width: 100%;
+height: 60px;
+background-color: #ffffff;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.dark {
+background-color: #1a1a2e;
+color: #cccccc;
+}
+
+.navbar-container {
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+.navbar-brand {
+display: flex;
+align-items: center;
+gap: 8px;
+padding: 0 16px;
+text-decoration: none;
+color: inherit;
+min-width: max-content;
+}
+
+.navbar-logo {
+height: 36px;
+width: auto;
+}
+
+.navbar-links {
+display: flex;
+align-items: center;
+gap: 16px;
+overflow-x: auto;
+flex: 1;
+scrollbar-width: none;
+-ms-overflow-style: none;
+padding: 0 16px;
+}
+
+.navbar-links::-webkit-scrollbar {
+display: none;
+}
+
+.nav-link {
+display: flex;
+align-items: center;
+gap: 6px;
+padding: 6px 10px;
+border-radius: 6px;
+color: #333333;
+text-decoration: none;
+transition: all 0.2s ease;
+font-size: 14px;
+white-space: nowrap;
+}
+
+.dark .nav-link {
+color: #cccccc;
+}
+
+.nav-link:hover {
+background-color: #f2f2f2;
+color: #1976d2;
+}
+
+.dark .nav-link:hover {
+background-color: #333333;
+color: #90caf9;
+}
+
+.nav-link.active {
+background-color: #f0f7ff;
+color: #1976d2;
+}
+
+.navbar-controls {
+display: flex;
+align-items: center;
+gap: 8px;
+padding: 0 16px;
+min-width: max-content;
+}
+
+.theme-toggle,
+.chat-button {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 36px;
+height: 36px;
+padding: 0;
+border: none;
+border-radius: 6px;
+background: transparent;
+color: inherit;
+cursor: pointer;
+}
+
+.mobile-menu-toggle {
+display: none;
+padding: 8px;
+margin-right: 8px;
+background: none;
+border: none;
+color: inherit;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+.mobile-menu-toggle {
+  display: block;
+}
+
+.navbar-links {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  background: inherit;
+  padding: 12px;
+  gap: 4px;
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+}
+
+.navbar-links.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  width: 100%;
+  font-size: 12px;
+  padding: 10px;
+}
+}
+
+/* ===================================
+ FOOTER STYLES
+=================================== */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #F5F5F7;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 1px 0;
+  text-align: center;
+  border-top: 1px solid #c6cbce;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrolling Text */
+.marquee {
+  width: 100%;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee-content {
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 100%;
+  animation: marquee 29s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+      transform: translateX(0%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+/* Minimal Apple-Style CSS */
+.urgent-text {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 20px;
+  color: #1D1D1F;  /* Apple'ın kullandığı siyah metin rengi */
+  background-color: #F5F5F7;  /* Apple'ın açık gri tonu */
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border: 1px solid #E5E5EA;  /* İnce, şık bir kenarlık */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Hafif bir gölge */
+  white-space: nowrap;
+}
+
+/* ⚡ Low Battery - Soft Red */
+.low-battery {
+  font-weight: bold;
+  background-color: #FFE4E1;  /* Daha yumuşak pastel kırmızı */
+  border: 1px solid #FF3B30;  /* Apple'ın hata kırmızısı */
+}
+
+/* 🚨 Stopped - Kenarlık Blink Effect */
+.stopped {
+  font-weight: bold;
+  background-color: #FFECD4;  /* Hafif ve estetik Peach (Şeftali) tonu */
+  border: 2px solid #FF7F50;  /* Doygun mercan-turuncu */
+  animation: blinkBorder 1s infinite alternate;  /* Border blink efekti */
+  -webkit-animation: blinkBorder 1s infinite alternate;  /* Safari için */
+}
+
+/* ⏰ Delivery Deadline Approaching - Soft Yellow */
+.deadline-approaching {
+  font-weight: bold;
+  background-color: #FFFCE1;  /* Hafif ve pastel sarı */
+  border: 1px solid #FFD60A;  /* Apple'ın sarısı */
+}
+
+/* ✅ Normal Operation - Soft Green */
+.no-urgent {
+  font-weight: bold;
+  color: #1D1D1F;
+  background-color: #E6F7E6;  /* Hafif ve pastel yeşil */
+  border: 1px solid #34C759;  /* Apple'ın yeşili */
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+/* İKONLAR */
+.urgent-icon {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007AFF;  /* Apple'ın mavi tonu */
+  animation: subtlePulse 2s infinite ease-in-out;
+  vertical-align: middle;
+}
+
+/* Hover Effect - Apple Tarzı */
+.urgent-text:hover {
+  font-weight: bold;
+  background-color: #E5E5EA;
+  border-color: #D1D1D6;
+  cursor: pointer;
+}
+
+/* Hafif Animasyon */
+@keyframes subtlePulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* 🚨 Stopped için Kenarlık Blink Efekti */
+@keyframes blinkBorder {
+  0%   { border-color: #FF7F50; }  /* Mercan-turuncu */
+  50%  { border-color: #FF4500; }  /* Koyu turuncu (Tomato) */
+  100% { border-color: #FF7F50; }  /* Mercan-turuncu */
+}
+
+
+
+/* ===================================
+ RESPONSIVE DESIGN
+=================================== */
+@media (max-width: 1024px) {
+  .navbar {
+      padding: 16px 24px;
+  }
+
+  .navbar-links {
+      gap: 16px;
+  }
+
+  .footer {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbar-links {
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 10px;
+  }
+
+  .footer {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+      font-size: 24px;
+  }
+
+  .footer {
+      font-size: 12px;
+  }
+}

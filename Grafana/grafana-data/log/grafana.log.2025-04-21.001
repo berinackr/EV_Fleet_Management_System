@@ -1,0 +1,125 @@
+logger=infra.usagestats t=2025-04-20T00:22:38.0815075+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T00:22:38.2953529+03:00 level=info msg="Completed cleanup jobs" duration=1.7700006s
+logger=infra.usagestats t=2025-04-20T00:22:38.3387543+03:00 level=warn msg="Failed to send usage stats" error="Post \"https://stats.grafana.org/grafana-usage-report\": dial tcp: lookup stats.grafana.org: no such host" traceID=
+logger=cleanup t=2025-04-20T00:22:58.9709659+03:00 level=info msg="Completed cleanup jobs" duration=20.9897ms
+logger=plugins.update.checker t=2025-04-20T00:22:59.1136929+03:00 level=info msg="Update check succeeded" duration=153.7746ms
+logger=cleanup t=2025-04-20T00:32:58.9897172+03:00 level=info msg="Completed cleanup jobs" duration=39.8478ms
+logger=plugins.update.checker t=2025-04-20T00:32:59.1393112+03:00 level=info msg="Update check succeeded" duration=179.0098ms
+logger=infra.usagestats t=2025-04-20T00:33:30.9613423+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T00:42:58.9857528+03:00 level=info msg="Completed cleanup jobs" duration=35.8728ms
+logger=plugins.update.checker t=2025-04-20T00:42:59.1247675+03:00 level=info msg="Update check succeeded" duration=165.0318ms
+logger=infra.usagestats t=2025-04-20T01:04:20.1240569+03:00 level=info msg="Usage stats are ready to report"
+logger=grafana.update.checker t=2025-04-20T01:04:20.4100288+03:00 level=error msg="Update check failed" error="failed to get stable version from grafana.com: Get \"https://grafana.com/api/grafana/versions/stable\": dial tcp: lookup grafana.com: no such host" duration=43.028ms
+logger=cleanup t=2025-04-20T01:04:20.474825+03:00 level=info msg="Completed cleanup jobs" duration=348.2458ms
+logger=cleanup t=2025-04-20T01:16:31.3228018+03:00 level=info msg="Completed cleanup jobs" duration=30.8788ms
+logger=cleanup t=2025-04-20T01:22:58.9553423+03:00 level=info msg="Completed cleanup jobs" duration=5.2124ms
+logger=plugins.update.checker t=2025-04-20T01:22:59.1381951+03:00 level=info msg="Update check succeeded" duration=177.2144ms
+logger=cleanup t=2025-04-20T01:32:59.0040842+03:00 level=info msg="Completed cleanup jobs" duration=51.8663ms
+logger=plugins.update.checker t=2025-04-20T01:32:59.1631919+03:00 level=info msg="Update check succeeded" duration=203.4903ms
+logger=infra.usagestats t=2025-04-20T01:33:30.9686104+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T01:42:59.0191044+03:00 level=info msg="Completed cleanup jobs" duration=68.2585ms
+logger=plugins.update.checker t=2025-04-20T01:42:59.1345383+03:00 level=info msg="Update check succeeded" duration=174.9434ms
+logger=cleanup t=2025-04-20T01:52:58.985968+03:00 level=info msg="Completed cleanup jobs" duration=35.9646ms
+logger=plugins.update.checker t=2025-04-20T01:52:59.1683883+03:00 level=info msg="Update check succeeded" duration=208.6121ms
+logger=cleanup t=2025-04-20T02:02:59.0033952+03:00 level=info msg="Completed cleanup jobs" duration=52.8533ms
+logger=plugins.update.checker t=2025-04-20T02:02:59.1281058+03:00 level=info msg="Update check succeeded" duration=168.5515ms
+logger=infra.usagestats t=2025-04-20T02:03:30.9616842+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T02:12:58.9906712+03:00 level=info msg="Completed cleanup jobs" duration=40.7832ms
+logger=plugins.update.checker t=2025-04-20T02:12:59.1215993+03:00 level=info msg="Update check succeeded" duration=160.9825ms
+logger=cleanup t=2025-04-20T02:22:59.0620509+03:00 level=info msg="Completed cleanup jobs" duration=111.9655ms
+logger=plugins.update.checker t=2025-04-20T02:22:59.1206129+03:00 level=info msg="Update check succeeded" duration=160.192ms
+logger=cleanup t=2025-04-20T02:32:58.9830193+03:00 level=info msg="Completed cleanup jobs" duration=31.1442ms
+logger=plugins.update.checker t=2025-04-20T02:32:59.1174627+03:00 level=info msg="Update check succeeded" duration=157.6175ms
+logger=infra.usagestats t=2025-04-20T02:33:30.9616113+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T02:42:58.970101+03:00 level=info msg="Completed cleanup jobs" duration=18.5264ms
+logger=plugins.update.checker t=2025-04-20T02:42:59.1477743+03:00 level=info msg="Update check succeeded" duration=186.9362ms
+logger=cleanup t=2025-04-20T02:52:58.9871183+03:00 level=info msg="Completed cleanup jobs" duration=37.2608ms
+logger=plugins.update.checker t=2025-04-20T02:52:59.1741986+03:00 level=info msg="Update check succeeded" duration=208.0908ms
+logger=infra.usagestats t=2025-04-20T12:11:50.8110546+03:00 level=info msg="Usage stats are ready to report"
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-20T12:11:50.8452839+03:00 level=error msg="Error while updating detectors" error="fetch: http do: Get \"https://grafana.com/api/plugins/angular_patterns\": dial tcp: lookup grafana.com: no such host"
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-20T12:11:50.8452839+03:00 level=info msg="Patterns update finished" duration=144.0558ms
+logger=cleanup t=2025-04-20T12:11:50.8877284+03:00 level=info msg="Completed cleanup jobs" duration=1.3854698s
+logger=cleanup t=2025-04-20T12:12:58.9863977+03:00 level=info msg="Completed cleanup jobs" duration=36.6425ms
+logger=plugins.update.checker t=2025-04-20T12:12:59.1138581+03:00 level=info msg="Update check succeeded" duration=153.8847ms
+logger=settings t=2025-04-20T14:01:25.8351361+03:00 level=info msg="Starting Grafana" version=11.5.2 commit=598e0338d5374d6bc404b02a58094132c5eeceb8 branch=HEAD compiled=2025-04-20T14:01:25+03:00
+logger=settings t=2025-04-20T14:01:25.8366457+03:00 level=info msg="Config loaded from" file="C:\\Program Files\\GrafanaLabs\\grafana/conf/defaults.ini"
+logger=settings t=2025-04-20T14:01:25.8366457+03:00 level=info msg=Target target=[all]
+logger=settings t=2025-04-20T14:01:25.838672+03:00 level=info msg="Path Home" path="C:\\Program Files\\GrafanaLabs\\grafana"
+logger=settings t=2025-04-20T14:01:25.838672+03:00 level=info msg="Path Data" path="C:\\Program Files\\GrafanaLabs\\grafana\\data"
+logger=settings t=2025-04-20T14:01:25.838672+03:00 level=info msg="Path Logs" path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\log"
+logger=settings t=2025-04-20T14:01:25.838672+03:00 level=info msg="Path Plugins" path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\plugins"
+logger=settings t=2025-04-20T14:01:25.838672+03:00 level=info msg="Path Provisioning" path="C:\\Program Files\\GrafanaLabs\\grafana\\conf\\provisioning"
+logger=settings t=2025-04-20T14:01:25.838672+03:00 level=info msg="App mode production"
+logger=featuremgmt t=2025-04-20T14:01:25.838672+03:00 level=info msg=FeatureToggles influxdbBackendMigration=true dashboardScene=true dataplaneFrontendFallback=true reportingUseRawTimeRange=true kubernetesPlaylists=true ssoSettingsApi=true promQLScope=true unifiedRequestLog=true alertingInsights=true lokiQueryHints=true transformationsRedesign=true cloudWatchNewLabelParsing=true preinstallAutoUpdate=true awsAsyncQueryCaching=true cloudWatchRoundUpEndTime=true accessControlOnCall=true transformationsVariableSupport=true angularDeprecationUI=true annotationPermissionUpdate=true lokiStructuredMetadata=true newPDFRendering=true prometheusAzureOverrideAudience=true alertingUIOptimizeReducer=true nestedFolders=true exploreMetrics=true formatString=true recoveryThreshold=true logsInfiniteScrolling=true pinNavItems=true recordedQueriesMulti=true logRowsPopoverMenu=true newDashboardSharingComponent=true zipkinBackendMigration=true correlations=true onPremToCloudMigrations=true accessActionSets=true managedPluginsInstall=true dashboardSceneForViewers=true tlsMemcached=true openSearchBackendFlowEnabled=true alertingSimplifiedRouting=true logsContextDatasourceUi=true alertingApiServer=true dashgpt=true alertingNoDataErrorExecution=true panelMonitoring=true azureMonitorEnableUserAuth=true publicDashboardsScene=true groupToNestedTableTransformation=true userStorageAPI=true cloudWatchCrossAccountQuerying=true dashboardSceneSolo=true newFiltersUI=true lokiQuerySplitting=true logsExploreTableVisualisation=true useSessionStorageForRedirection=true addFieldFromCalculationStatFunctions=true lokiLabelNamesQueryApi=true
+logger=sqlstore t=2025-04-20T14:01:25.8406778+03:00 level=info msg="Connecting to DB" dbtype=sqlite3
+logger=sqlstore t=2025-04-20T14:01:25.8406778+03:00 level=warn msg="SQLite database file has broader permissions than it should" path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\grafana.db" mode=-rw-rw-rw- expected=-rw-r-----
+logger=migrator t=2025-04-20T14:01:25.8587231+03:00 level=info msg="Locking database"
+logger=migrator t=2025-04-20T14:01:25.8587231+03:00 level=info msg="Starting DB migrations"
+logger=migrator t=2025-04-20T14:01:25.8802405+03:00 level=info msg="migrations completed" performed=0 skipped=629 duration=1.637ms
+logger=migrator t=2025-04-20T14:01:25.8813797+03:00 level=info msg="Unlocking database"
+logger=secrets t=2025-04-20T14:01:25.8824722+03:00 level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-20T14:01:25.9876654+03:00 level=info msg="Restored cache from database" duration=1.1413ms
+logger=plugin.store t=2025-04-20T14:01:26.00228+03:00 level=info msg="Loading plugins..."
+logger=plugins.registration t=2025-04-20T14:01:26.4985409+03:00 level=info msg="Plugin registered" pluginId=grafana-lokiexplore-app
+logger=plugins.registration t=2025-04-20T14:01:26.5711498+03:00 level=info msg="Plugin registered" pluginId=grafana-pyroscope-app
+logger=plugin.store t=2025-04-20T14:01:26.5711498+03:00 level=info msg="Plugins loaded" count=56 duration=568.8698ms
+logger=resource-migrator t=2025-04-20T14:01:26.5814582+03:00 level=info msg="Locking database"
+logger=resource-migrator t=2025-04-20T14:01:26.5820005+03:00 level=info msg="Starting DB migrations"
+logger=resource-migrator t=2025-04-20T14:01:26.586794+03:00 level=info msg="migrations completed" performed=0 skipped=22 duration=4.2551ms
+logger=resource-migrator t=2025-04-20T14:01:26.5873491+03:00 level=info msg="Unlocking database"
+logger=query_data t=2025-04-20T14:01:26.6117724+03:00 level=info msg="Query Service initialization"
+logger=live.push_http t=2025-04-20T14:01:26.6193328+03:00 level=info msg="Live Push Gateway initialization"
+logger=ngalert.notifier.alertmanager org=1 t=2025-04-20T14:01:26.628875+03:00 level=info msg="Applying new configuration to Alertmanager" configHash=d2c56faca6af2a5772ff4253222f7386
+logger=ngalert.state.manager t=2025-04-20T14:01:26.6439565+03:00 level=info msg="Running in alternative execution of Error/NoData mode"
+logger=cloudmigration.service t=2025-04-20T14:01:26.6540082+03:00 level=info msg="using gcom client for auth"
+logger=infra.usagestats.collector t=2025-04-20T14:01:26.6560219+03:00 level=info msg="registering usage stat providers" usageStatsProvidersLen=2
+logger=provisioning.alerting t=2025-04-20T14:01:26.6595357+03:00 level=info msg="starting to provision alerting"
+logger=provisioning.alerting t=2025-04-20T14:01:26.6595357+03:00 level=info msg="finished to provision alerting"
+logger=ngalert.multiorg.alertmanager t=2025-04-20T14:01:26.6595357+03:00 level=info msg="Starting MultiOrg Alertmanager"
+logger=grafanaStorageLogger t=2025-04-20T14:01:26.6595357+03:00 level=info msg="Storage starting"
+logger=ngalert.state.manager t=2025-04-20T14:01:26.6595357+03:00 level=info msg="Warming state cache for startup"
+logger=http.server t=2025-04-20T14:01:26.6701728+03:00 level=info msg="HTTP Server Listen" address=[::]:3000 protocol=http subUrl= socket=
+logger=grafana.update.checker t=2025-04-20T14:01:26.6732079+03:00 level=error msg="Update check failed" error="failed to get stable version from grafana.com: Get \"https://grafana.com/api/grafana/versions/stable\": dial tcp: lookup grafana.com: no such host" duration=12.1607ms
+logger=plugin.backgroundinstaller t=2025-04-20T14:01:26.6732079+03:00 level=error msg="Failed to get plugin info" pluginId=grafana-lokiexplore-app error="Get \"https://grafana.com/api/plugins/grafana-lokiexplore-app/versions\": dial tcp: lookup grafana.com: no such host"
+logger=plugin.backgroundinstaller t=2025-04-20T14:01:26.6732079+03:00 level=error msg="Failed to get plugin info" pluginId=grafana-pyroscope-app error="Get \"https://grafana.com/api/plugins/grafana-pyroscope-app/versions\": dial tcp: lookup grafana.com: no such host"
+logger=ngalert.state.manager t=2025-04-20T14:01:26.7227694+03:00 level=info msg="State cache has been initialized" states=0 duration=63.2337ms
+logger=ngalert.scheduler t=2025-04-20T14:01:26.7227694+03:00 level=info msg="Starting scheduler" tickInterval=10s maxAttempts=3
+logger=ticker t=2025-04-20T14:01:26.7233008+03:00 level=info msg=starting first_tick=2025-04-20T14:01:30+03:00
+logger=provisioning.dashboard t=2025-04-20T14:01:26.7676422+03:00 level=info msg="starting to provision dashboards"
+logger=provisioning.dashboard t=2025-04-20T14:01:26.7676422+03:00 level=info msg="finished to provision dashboards"
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-20T14:01:26.7813852+03:00 level=error msg="Error while updating detectors" error="fetch: http do: Get \"https://grafana.com/api/plugins/angular_patterns\": dial tcp: lookup grafana.com: no such host"
+logger=plugin.angulardetectorsprovider.dynamic t=2025-04-20T14:01:26.7813852+03:00 level=info msg="Patterns update finished" duration=0s
+logger=grafana-apiserver t=2025-04-20T14:01:26.8760962+03:00 level=info msg="Adding GroupVersion playlist.grafana.app v0alpha1 to ResourceManager"
+logger=resource-server t=2025-04-20T14:01:26.8801834+03:00 level=warn msg="failed to register storage metrics" error="duplicate metrics collector registration attempted"
+logger=resource-server t=2025-04-20T14:01:26.8801834+03:00 level=warn msg="failed to register storage metrics" error="duplicate metrics collector registration attempted"
+logger=resource-server t=2025-04-20T14:01:26.8801834+03:00 level=warn msg="failed to register storage metrics" error="duplicate metrics collector registration attempted"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8812072+03:00 level=info msg="Adding GroupVersion dashboard.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8812072+03:00 level=info msg="Adding GroupVersion dashboard.grafana.app v1alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8911709+03:00 level=info msg="Adding GroupVersion dashboard.grafana.app v2alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8922171+03:00 level=info msg="Adding GroupVersion featuretoggle.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8922171+03:00 level=info msg="Adding GroupVersion iam.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8962552+03:00 level=info msg="Adding GroupVersion notifications.alerting.grafana.app v0alpha1 to ResourceManager"
+logger=grafana-apiserver t=2025-04-20T14:01:26.8962552+03:00 level=info msg="Adding GroupVersion userstorage.grafana.app v0alpha1 to ResourceManager"
+logger=app-registry t=2025-04-20T14:01:26.9611334+03:00 level=info msg="app registry initialized"
+logger=infra.usagestats t=2025-04-20T14:02:37.6721217+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T14:11:26.682538+03:00 level=info msg="Completed cleanup jobs" duration=21.1749ms
+logger=plugins.update.checker t=2025-04-20T14:11:26.9225825+03:00 level=info msg="Update check succeeded" duration=248.4259ms
+logger=cleanup t=2025-04-20T14:21:26.6940639+03:00 level=info msg="Completed cleanup jobs" duration=32.7943ms
+logger=plugins.update.checker t=2025-04-20T14:21:26.8594708+03:00 level=info msg="Update check succeeded" duration=185.7494ms
+logger=cleanup t=2025-04-20T14:31:26.6862051+03:00 level=info msg="Completed cleanup jobs" duration=23.5516ms
+logger=plugins.update.checker t=2025-04-20T14:31:26.8416783+03:00 level=info msg="Update check succeeded" duration=168.0549ms
+logger=infra.usagestats t=2025-04-20T14:32:37.6766335+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T14:41:26.6990325+03:00 level=info msg="Completed cleanup jobs" duration=37.4308ms
+logger=plugins.update.checker t=2025-04-20T14:41:26.8354382+03:00 level=info msg="Update check succeeded" duration=161.8501ms
+logger=cleanup t=2025-04-20T14:51:26.7024628+03:00 level=info msg="Completed cleanup jobs" duration=40.8119ms
+logger=plugins.update.checker t=2025-04-20T14:51:26.8268+03:00 level=info msg="Update check succeeded" duration=153.1743ms
+logger=cleanup t=2025-04-20T15:01:26.6714934+03:00 level=info msg="Completed cleanup jobs" duration=10.2938ms
+logger=plugins.update.checker t=2025-04-20T15:01:26.8247933+03:00 level=info msg="Update check succeeded" duration=150.5688ms
+logger=infra.usagestats t=2025-04-20T15:02:37.67664+03:00 level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-20T15:11:26.680182+03:00 level=info msg="Completed cleanup jobs" duration=18.2031ms
+logger=plugins.update.checker t=2025-04-20T15:11:26.8563574+03:00 level=info msg="Update check succeeded" duration=182.0282ms
+logger=cleanup t=2025-04-20T15:21:26.7083814+03:00 level=info msg="Completed cleanup jobs" duration=46.6619ms
+logger=plugins.update.checker t=2025-04-20T15:21:26.8339129+03:00 level=info msg="Update check succeeded" duration=160.2493ms
+logger=cleanup t=2025-04-20T15:31:26.6718422+03:00 level=info msg="Completed cleanup jobs" duration=9.2669ms
+logger=plugins.update.checker t=2025-04-20T15:31:26.8264338+03:00 level=info msg="Update check succeeded" duration=152.7398ms
+logger=infra.usagestats t=2025-04-20T15:32:37.6778837+03:00 level=info msg="Usage stats are ready to report"

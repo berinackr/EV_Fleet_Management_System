@@ -1,0 +1,156 @@
+/* === Alert Container === */
+.alert-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border-left: 6px solid #ccc;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.alert-container:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.alert-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+/* === Content === */
+.alert-content {
+  flex: 1;
+}
+
+.alert-message {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #000000; /* Vurgulu siyah yazı */
+}
+
+.alert-detail {
+  font-size: 14px;
+  color: #1f1f1f; /* Belirgin detay yazı */
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.alert-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+  color: #000000; /* Artık silik değil, net siyah */
+  font-style: normal;
+}
+
+/* === Kaynak Etiketi & Zaman === */
+.alert-source {
+  background-color: #e0e0e0;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.alert-timestamp {
+  color: #000000;
+}
+
+/* === Actions === */
+.alert-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.alert-resolved {
+  background-color: #f0f0f0;
+  border-left-color: #aaa;
+  color: #666;
+}
+
+.alert-action-button {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+/* === Buttons === */
+.alert-resolve-button {
+  background-color: #28a745; /* Daha doygun yeşil */
+}
+
+.alert-resolve-button:hover {
+  background-color: #218838;
+}
+
+.alert-delete-button {
+  background-color: #dc3545; /* Gerçek kırmızı */
+}
+
+.alert-delete-button:hover {
+  background-color: #c82333;
+}
+
+/* === Alert Types === */
+.alert-error {
+  border-left-color: #c82333;
+  background-color: #f1c4c8; /* Açık ama pembemsi değil */
+  color: #721c24;
+}
+
+.alert-warning {
+  border-left-color: #e0a800;
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.alert-info {
+  border-left-color: #17a2b8;
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.alert-success {
+  border-left-color: #28a745;
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* === Blinking Icon (Optional) === */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.blinking-icon {
+  animation: blink 2s infinite ease-in-out;
+}
+
+/* === Mobile Adaptation === */
+@media (max-width: 500px) {
+  .alert-container {
+    flex-direction: column;
+    padding: 14px;
+  }
+
+  .alert-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .alert-action-button {
+    width: 100%;
+    text-align: center;
+  }
+}

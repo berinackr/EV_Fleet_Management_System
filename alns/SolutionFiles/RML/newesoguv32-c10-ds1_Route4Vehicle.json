@@ -1,0 +1,136 @@
+{
+    "routes": [
+        {
+            "id": 0,
+            "name": "test_newesoguv32-c10-ds1",
+            "start_point": {
+                "id": "cs5",
+                "location": {
+                    "latitude": 39.751377,
+                    "longitude": 30.481888
+                },
+                "waypoints": []
+            },
+            "end_point": {
+                "id": "cs5",
+                "location": {
+                    "latitude": 39.751377,
+                    "longitude": 30.481888
+                },
+                "waypoints": []
+            },
+            "delivery_points": [
+                {
+                    "id": "119",
+                    "location": {
+                        "latitude": 39.75296835298104,
+                        "longitude": 30.48642990735077
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "34",
+                    "location": {
+                        "latitude": 39.75298331855789,
+                        "longitude": 30.48744815284683
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "24",
+                    "location": {
+                        "latitude": 39.75075840001727,
+                        "longitude": 30.48876465362253
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "22A",
+                    "location": {
+                        "latitude": 39.75073912772263,
+                        "longitude": 30.489428025110282
+                    },
+                    "waypoints": []
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "test_newesoguv32-c10-ds1",
+            "start_point": {
+                "id": "cs5",
+                "location": {
+                    "latitude": 39.751377,
+                    "longitude": 30.481888
+                },
+                "waypoints": []
+            },
+            "end_point": {
+                "id": "cs5",
+                "location": {
+                    "latitude": 39.751377,
+                    "longitude": 30.481888
+                },
+                "waypoints": []
+            },
+            "delivery_points": [
+                {
+                    "id": "45",
+                    "location": {
+                        "latitude": 39.750766906930814,
+                        "longitude": 30.486305858422877
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "13",
+                    "location": {
+                        "latitude": 39.75071222428621,
+                        "longitude": 30.491328732190222
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "14",
+                    "location": {
+                        "latitude": 39.75043628839028,
+                        "longitude": 30.49134030075124
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "cs8",
+                    "location": {
+                        "latitude": 39.75085019506137,
+                        "longitude": 30.492754516229088
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "113",
+                    "location": {
+                        "latitude": 39.75308993647627,
+                        "longitude": 30.493415230335774
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "26",
+                    "location": {
+                        "latitude": 39.753632440087195,
+                        "longitude": 30.489956322270203
+                    },
+                    "waypoints": []
+                },
+                {
+                    "id": "31",
+                    "location": {
+                        "latitude": 39.752940711050194,
+                        "longitude": 30.48307218165666
+                    },
+                    "waypoints": []
+                }
+            ]
+        }
+    ]
+}

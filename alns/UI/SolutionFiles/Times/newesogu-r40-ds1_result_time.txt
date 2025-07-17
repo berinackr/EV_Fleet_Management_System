@@ -1,0 +1,14 @@
+total distance : 20601.0
+total time : 17044.96
+charging time : 245.88
+total number of charge stations : 1
+cs5, 41, 42A, 42C, cs5
+cs5, 43B, 44, 57, 122, 61B, 64, cs5
+cs5, 153, 73, cs3, 74, 76, 124, 88, 60B/2, cs5
+cs5, 120, 24, 22A, 23, 17, 19, cs5
+cs5, 154, 53, cs5
+cs5, 38, 125, 8, 10, 22C, cs5
+cs5, 119, 1, 113, 12, 13, 11, cs5
+cs5, 46, 20, 21, 27, 28, cs5
+
+# Infeasible Routes
