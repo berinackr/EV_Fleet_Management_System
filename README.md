@@ -62,7 +62,7 @@ This project is an innovative fleet management system specifically designed for 
   <img src="Screenshots/energy.png" width="400" />
   <img src="Screenshots/order.png" width="400" />
   <img src="Screenshots/grafana1.png" width="400" />
-  <img src="Screenshots/grafana1.png" width="400" />
+  <img src="Screenshots/grafana2.png" width="400" />
 </div>
 
 🎥 **Demo Video:** [Watch on YouTube](https://youtu.be/7o9Sk970qfY)
