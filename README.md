@@ -54,8 +54,6 @@ This study was conducted as part of my graduation project and represents my indi
 
 <div style="display: flex; gap: 10px; justify-content: center;">
   <img src="Screenshots/vehicletracing1.png" width="400" />
-  <img src="Screenshots/energy.png" width="400" />
-  <img src="Screenshots/order.png" width="400" />
   <img src="Screenshots/grafana1.png" width="400" />
   <img src="Screenshots/grafana2.png" width="400" />
 </div>
