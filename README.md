@@ -1,6 +1,5 @@
 # EV Fleet Management System
-
-This project is an innovative fleet management system specifically designed for electric vehicles (EVs). The system consists of two main modules: Vehicle Tracking Module and Performance Monitoring Module, providing comprehensive solutions for efficient EV fleet management.
+This study was conducted as part of my graduation project and represents my individual contributions within the scope of the European Union–funded project "OPEVA: Optimization of Electric Vehicle Autonomy", carried out under academic supervision. As part of my graduation project, I contributed to two modules of the system: Vehicle Tracking Module and Performance Monitoring Module, providing comprehensive solutions for efficient EV fleet management.
 
 ![Screenshot](Screenshots/vehicletracing1.png)
 ---
@@ -16,7 +15,7 @@ This project is an innovative fleet management system specifically designed for 
   - **CatBoost model** (R² ≈ 0.94) chosen among 23 models.  
   - **SHAP analysis** for interpretability (impact of slope, speed, mass, etc.).  
 - **Alert System**: Root cause classification (vehicle, route, driver, delivery, system).  
-- **Simulation Integration**: SUMO-based virtual fleet data combined with real MQTT streams.  
+- **Simulation Integration**: SUMO-based simulation. 
 - **Leaflet Map**: Live visualization of vehicles and delivery routes.  
 
 ### Performance Monitoring Module
@@ -38,17 +37,13 @@ This project is an innovative fleet management system specifically designed for 
   - **MariaDB 11.3.2** → structured data  
   - **MongoDB** → logs & telemetry  
 - **Visualization**: Grafana dashboards (Docker-based deployment)  
-- **Communication**: MQTT via FIWARE  
 - **Simulation**: SUMO integration  
 - **ML/Analytics**: Pandas, NumPy, CatBoost, SHAP  
 
 ### System Components
-- **Data Collection Layer**: CAN bus, GPS, temperature, battery sensors.  
 - **Processing Layer**: Energy & range prediction models (CatBoost).  
 - **Storage Layer**: MariaDB + MongoDB.
 - **Visualization Layer**: Grafana (iframe embedded) + Leaflet map.  
-- **Communication Layer**: MQTT real-time streaming.  
-
 ---
 ## Contributors
 
@@ -64,5 +59,3 @@ This project is an innovative fleet management system specifically designed for 
   <img src="Screenshots/grafana1.png" width="400" />
   <img src="Screenshots/grafana2.png" width="400" />
 </div>
-
-🎥 **Demo Video:** [Watch on YouTube](https://youtu.be/7o9Sk970qfY)
